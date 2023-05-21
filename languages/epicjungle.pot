@@ -1,0 +1,3491 @@
+# <!=Copyright (C) 2022 MeuMouse.com
+# This file is distributed under the GNU General Public License v3 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: EpicJungle 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-24 13:54:37+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: POT \n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: 404.php:11 inc/customizer/class-epicjungle-customizer.php:2222
+msgid "Go to homepage"
+msgstr ""
+
+#: 404.php:27 inc/classes/class-epicjungle-breadcrumb.php:119
+msgid "Error 404"
+msgstr ""
+
+#: comments.php:21
+msgid "Post Comments"
+msgstr ""
+
+#: comments.php:52
+msgid "Comment Navigation Below"
+msgstr ""
+
+#: comments.php:53 inc/template-functions/blog.php:398
+#. translators: navigation through comments
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:55
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:56
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:66 comments.php:116
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:77
+msgid "Join the conversation"
+msgstr ""
+
+#: comments.php:103
+#. translators: comment reply text
+msgid "Reply"
+msgstr ""
+
+#: comments.php:130
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:132
+#. translators: related to comment form; phrase follows by red mark
+msgid "Required fields are marked"
+msgstr ""
+
+#: comments.php:140
+#. translators: label for textarea in comment form
+msgid "Comment"
+msgstr ""
+
+#: header-404.php:28 header-canvas.php:28 header.php:28
+msgid "Loading..."
+msgstr ""
+
+#: inc/admin/class-epicjungle-plugin-install.php:102
+#: inc/classes/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/epicjungle-functions.php:134
+msgid "&laquo; Prev"
+msgstr ""
+
+#: inc/epicjungle-functions.php:135
+msgid "Next &raquo;"
+msgstr ""
+
+#: inc/epicjungle-functions.php:147
+msgid "Page navigation"
+msgstr ""
+
+#: inc/epicjungle-functions.php:192
+msgid "Invalid username or email address"
+msgstr ""
+
+#: inc/epicjungle-functions.php:200
+msgid "Please enter a password"
+msgstr ""
+
+#: inc/epicjungle-functions.php:207
+msgid "Incorrect password"
+msgstr ""
+
+#: inc/epicjungle-functions.php:314
+msgid "Username already taken"
+msgstr ""
+
+#: inc/epicjungle-functions.php:318
+msgid "Invalid username"
+msgstr ""
+
+#: inc/epicjungle-functions.php:322
+msgid "Please enter a username"
+msgstr ""
+
+#: inc/epicjungle-functions.php:326
+msgid "Invalid email"
+msgstr ""
+
+#: inc/epicjungle-functions.php:330
+msgid "Email already registered"
+msgstr ""
+
+#: inc/epicjungle-functions.php:345
+msgid "Password you entered is mismatched"
+msgstr ""
+
+#: inc/epicjungle-functions.php:378
+msgid ""
+"Account created successfully. Please check your email to create your "
+"account password"
+msgstr ""
+
+#: inc/epicjungle-functions.php:436
+msgid "Enter a username or email address"
+msgstr ""
+
+#: inc/epicjungle-functions.php:452
+msgid "There is no account with that username or email address."
+msgstr ""
+
+#: inc/epicjungle-functions.php:457
+msgid "Invalid username or email address."
+msgstr ""
+
+#: inc/epicjungle-functions.php:466
+msgid "Passord has been sent to your email"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1056
+msgid "Share:"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1069
+msgid "Share this on %s"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1085 inc/customizer/class-epicjungle-customizer.php:421
+#: inc/customizer/class-epicjungle-customizer.php:1472
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:487
+msgid "Primary"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1089
+msgid "Secondary"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1093
+msgid "Success"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1097
+msgid "Info"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1101
+msgid "Warning"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1105
+msgid "Danger"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1109 inc/customizer/class-epicjungle-customizer.php:395
+#: inc/customizer/class-epicjungle-customizer.php:423
+#: inc/customizer/class-epicjungle-customizer.php:554
+#: inc/customizer/class-epicjungle-customizer.php:1027
+#: inc/customizer/class-epicjungle-customizer.php:1448
+#: inc/customizer/class-epicjungle-customizer.php:1474
+#: inc/customizer/class-epicjungle-customizer.php:1601
+#: inc/customizer/class-epicjungle-customizer.php:1829
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:463
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:489
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:611
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:861
+msgid "Light"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1113 inc/customizer/class-epicjungle-customizer.php:396
+#: inc/customizer/class-epicjungle-customizer.php:420
+#: inc/customizer/class-epicjungle-customizer.php:555
+#: inc/customizer/class-epicjungle-customizer.php:1028
+#: inc/customizer/class-epicjungle-customizer.php:1449
+#: inc/customizer/class-epicjungle-customizer.php:1471
+#: inc/customizer/class-epicjungle-customizer.php:1602
+#: inc/customizer/class-epicjungle-customizer.php:1830
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:464
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:486
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:612
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:862
+msgid "Dark"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1117
+msgid "White"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1121
+msgid "Black"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1125
+msgid "Text"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1129
+msgid "Text Muted"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1133
+msgid "Gray 100"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1137
+msgid "Gray 200"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1141
+msgid "Gray 300"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1145
+msgid "Gray 400"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1149
+msgid "Gray 500"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1153
+msgid "Gray 600"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1157
+msgid "Gray 700"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1161
+msgid "Gray 800"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1165
+msgid "Gray 900"
+msgstr ""
+
+#: inc/epicjungle-functions.php:1169
+msgid "Accent"
+msgstr ""
+
+#: inc/class-epicjungle.php:100
+msgid "Navbar Nav"
+msgstr ""
+
+#: inc/class-epicjungle.php:213
+msgid "Small"
+msgstr ""
+
+#: inc/class-epicjungle.php:218
+msgid "Normal"
+msgstr ""
+
+#: inc/class-epicjungle.php:223
+msgid "Medium"
+msgstr ""
+
+#: inc/class-epicjungle.php:228
+msgid "Large"
+msgstr ""
+
+#: inc/class-epicjungle.php:233
+msgid "Huge"
+msgstr ""
+
+#: inc/class-epicjungle.php:263 inc/customizer/class-epicjungle-customizer.php:1331
+#. translators: label field of control in Customizer
+msgid "Blog Sidebar"
+msgstr ""
+
+#: inc/class-epicjungle.php:311
+#. translators: 1: column number
+msgid "Footer Column %1$d"
+msgstr ""
+
+#: inc/class-epicjungle.php:314
+#. translators: 1: column number
+msgid "Widgets added here will appear in column %1$d of the footer."
+msgstr ""
+
+#: inc/class-epicjungle.php:317
+#. translators: 1: row number, 2: column number
+msgid "Footer Row %1$d - Column %2$d"
+msgstr ""
+
+#: inc/class-epicjungle.php:320
+#. translators: 1: column number, 2: row number
+msgid "Widgets added here will appear in column %1$d of footer row %2$d."
+msgstr ""
+
+#: inc/class-epicjungle.php:430
+msgid "Days"
+msgstr ""
+
+#: inc/class-epicjungle.php:431
+msgid "Hours"
+msgstr ""
+
+#: inc/class-epicjungle.php:432
+msgid "Mins"
+msgstr ""
+
+#: inc/class-epicjungle.php:433
+msgid "Secs"
+msgstr ""
+
+#: inc/classes/class-epicjungle-breadcrumb.php:237
+#. translators: %s: product tag
+msgid "Products tagged &ldquo;%s&rdquo;"
+msgstr ""
+
+#: inc/classes/class-epicjungle-breadcrumb.php:289
+#. translators: %s: tag name
+msgid "Posts tagged &ldquo;%s&rdquo;"
+msgstr ""
+
+#: inc/classes/class-epicjungle-breadcrumb.php:332
+#. translators: %s: author name
+msgid "Author: %s"
+msgstr ""
+
+#: inc/classes/class-epicjungle-breadcrumb.php:372
+#. translators: %s: search term
+msgid "Search results for &ldquo;%s&rdquo;"
+msgstr ""
+
+#: inc/classes/class-epicjungle-breadcrumb.php:382
+#. translators: %d: page number
+msgid "Page %d"
+msgstr ""
+
+#: inc/classes/class-epicjungle-post-taxonomies.php:31
+#: inc/classes/class-epicjungle-post-taxonomies.php:48
+msgid "Background Color - Hex Value"
+msgstr ""
+
+#: inc/classes/class-epicjungle-walker-comment.php:44
+msgid "Author"
+msgstr ""
+
+#: inc/classes/class-epicjungle-walker-comment.php:81
+#: inc/template-functions/global.php:158
+#: woocommerce/myaccount/my-address.php:64
+msgid "Edit"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:337
+#. translators: %s: plugin name.
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:339
+#. translators: %s: plugin name.
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:377
+#. translators: 1: plugin name(s).
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:382
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:387
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:393
+#: inc/classes/class-tgm-plugin-activation.php:913
+#: inc/classes/class-tgm-plugin-activation.php:2634
+#: inc/classes/class-tgm-plugin-activation.php:3681
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:394
+#: inc/classes/class-tgm-plugin-activation.php:3260
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:395
+#: inc/classes/class-tgm-plugin-activation.php:3053
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:397
+#. translators: 1: plugin name.
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:399
+#. translators: 1: plugin name.
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:401
+#. translators: 1: dashboard link.
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1020
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1020
+#: inc/classes/class-tgm-plugin-activation.php:1023
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1023
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2083
+#. translators: %s: version number
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2374
+msgid "Required"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2377
+msgid "Recommended"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2393
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2396
+msgid "External Source"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2399
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2416
+msgid "Not Installed"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2420
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2422
+msgid "Active"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2428
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2431
+msgid "Requires Update"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2434
+msgid "Update recommended"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2493
+#. translators: 1: number of plugins.
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2497
+#. translators: 1: number of plugins.
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2501
+#. translators: 1: number of plugins.
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2591
+msgid "Installed version:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2599
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2611
+msgid "Available version:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2634
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2648
+msgid "Plugin"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2649
+msgid "Source"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2650
+msgid "Type"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2654
+msgid "Version"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2655
+msgid "Status"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2704
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2709
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2715
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2785
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2818
+msgid "Install"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2824
+#: woocommerce/cart/shipping-calculator.php:86
+msgid "Update"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2827
+msgid "Activate"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2858
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2860
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2901
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2903
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3009
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3035
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3259
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3599
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3602
+#. translators: 1: plugin name, 2: error message.
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3604
+#. translators: 1: plugin name.
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3610
+#. translators: 1: plugin name.
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3610
+#: inc/classes/class-tgm-plugin-activation.php:3618
+msgid "Show Details"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3610
+#: inc/classes/class-tgm-plugin-activation.php:3618
+msgid "Hide Details"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3611
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3613
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3616
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3618
+#. translators: 1: plugin name.
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3619
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:3621
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/classes/class-wp-bootstrap-navwalker.php:453
+msgid "Please assign a menu"
+msgstr ""
+
+#: inc/customizer/epicjungle-customizer-functions.php:24
+msgid "— Select —"
+msgstr ""
+
+#: inc/customizer/epicjungle-customizer-functions.php:29
+msgid "No Static Content Found"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:101
+msgid "General"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:102
+msgid "This section contains settings related to general."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:119
+msgid "Enable Scroll to Top"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:121
+#: inc/customizer/class-epicjungle-customizer.php:140
+#: inc/customizer/class-epicjungle-customizer.php:369
+#: inc/customizer/class-epicjungle-customizer.php:447
+#: inc/customizer/class-epicjungle-customizer.php:473
+#: inc/customizer/class-epicjungle-customizer.php:498
+#: inc/customizer/class-epicjungle-customizer.php:525
+#: inc/customizer/class-epicjungle-customizer.php:579
+#: inc/customizer/class-epicjungle-customizer.php:598
+#: inc/customizer/class-epicjungle-customizer.php:622
+#: inc/customizer/class-epicjungle-customizer.php:648
+#: inc/customizer/class-epicjungle-customizer.php:678
+#: inc/customizer/class-epicjungle-customizer.php:709
+#: inc/customizer/class-epicjungle-customizer.php:804
+#: inc/customizer/class-epicjungle-customizer.php:900
+#: inc/customizer/class-epicjungle-customizer.php:1150
+#: inc/customizer/class-epicjungle-customizer.php:1356
+#: inc/customizer/class-epicjungle-customizer.php:1377
+#: inc/customizer/class-epicjungle-customizer.php:1424
+#: inc/customizer/class-epicjungle-customizer.php:1497
+#: inc/customizer/class-epicjungle-customizer.php:1522
+#: inc/customizer/class-epicjungle-customizer.php:1548
+#: inc/customizer/class-epicjungle-customizer.php:1572
+#: inc/customizer/class-epicjungle-customizer.php:1625
+#: inc/customizer/class-epicjungle-customizer.php:1645
+#: inc/customizer/class-epicjungle-customizer.php:1669
+#: inc/customizer/class-epicjungle-customizer.php:1694
+#: inc/customizer/class-epicjungle-customizer.php:1720
+#: inc/customizer/class-epicjungle-customizer.php:1747
+#: inc/customizer/class-epicjungle-customizer.php:1777
+#: inc/customizer/class-epicjungle-customizer.php:1983
+#: inc/customizer/class-epicjungle-customizer.php:2271
+#: inc/customizer/class-epicjungle-customizer.php:2419
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:58
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:78
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:393
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:439
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:512
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:537
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:561
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:585
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:656
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:676
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:700
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:725
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:751
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:779
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:809
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:1015
+msgid "Yes"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:122
+#: inc/customizer/class-epicjungle-customizer.php:141
+#: inc/customizer/class-epicjungle-customizer.php:370
+#: inc/customizer/class-epicjungle-customizer.php:448
+#: inc/customizer/class-epicjungle-customizer.php:474
+#: inc/customizer/class-epicjungle-customizer.php:499
+#: inc/customizer/class-epicjungle-customizer.php:526
+#: inc/customizer/class-epicjungle-customizer.php:580
+#: inc/customizer/class-epicjungle-customizer.php:599
+#: inc/customizer/class-epicjungle-customizer.php:623
+#: inc/customizer/class-epicjungle-customizer.php:649
+#: inc/customizer/class-epicjungle-customizer.php:679
+#: inc/customizer/class-epicjungle-customizer.php:710
+#: inc/customizer/class-epicjungle-customizer.php:805
+#: inc/customizer/class-epicjungle-customizer.php:901
+#: inc/customizer/class-epicjungle-customizer.php:1151
+#: inc/customizer/class-epicjungle-customizer.php:1357
+#: inc/customizer/class-epicjungle-customizer.php:1378
+#: inc/customizer/class-epicjungle-customizer.php:1425
+#: inc/customizer/class-epicjungle-customizer.php:1498
+#: inc/customizer/class-epicjungle-customizer.php:1523
+#: inc/customizer/class-epicjungle-customizer.php:1549
+#: inc/customizer/class-epicjungle-customizer.php:1573
+#: inc/customizer/class-epicjungle-customizer.php:1626
+#: inc/customizer/class-epicjungle-customizer.php:1646
+#: inc/customizer/class-epicjungle-customizer.php:1670
+#: inc/customizer/class-epicjungle-customizer.php:1695
+#: inc/customizer/class-epicjungle-customizer.php:1721
+#: inc/customizer/class-epicjungle-customizer.php:1748
+#: inc/customizer/class-epicjungle-customizer.php:1778
+#: inc/customizer/class-epicjungle-customizer.php:1984
+#: inc/customizer/class-epicjungle-customizer.php:2272
+#: inc/customizer/class-epicjungle-customizer.php:2420
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:59
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:79
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:394
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:440
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:513
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:538
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:562
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:586
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:657
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:677
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:701
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:726
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:752
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:780
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:810
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:1016
+msgid "No"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:138
+msgid "Enable Page Loading Animation"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:162
+msgid ""
+"Logo is optimized for retina displays, so the original image size should be "
+"twice\n"
+"                as big as the final logo that appears on the website. For "
+"example, if you want logo to\n"
+"                be 142x34 px you should upload image 284x68 px."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:182
+msgid "Mobile Logo"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:183
+msgid "Mobile logo inherits the same behavior for retina displays as desktop logo."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:190
+#: inc/customizer/class-epicjungle-customizer.php:195
+#: inc/customizer/class-epicjungle-customizer.php:223
+#: inc/customizer/class-epicjungle-customizer.php:228
+#: inc/customizer/class-epicjungle-customizer.php:257
+#: inc/customizer/class-epicjungle-customizer.php:262
+#: inc/customizer/class-epicjungle-customizer.php:296
+#: inc/customizer/class-epicjungle-customizer.php:301
+msgid "Select logo"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:191
+#: inc/customizer/class-epicjungle-customizer.php:224
+#: inc/customizer/class-epicjungle-customizer.php:258
+#: inc/customizer/class-epicjungle-customizer.php:297
+msgid "Change logo"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:192
+#: inc/customizer/class-epicjungle-customizer.php:225
+#: inc/customizer/class-epicjungle-customizer.php:259
+#: inc/customizer/class-epicjungle-customizer.php:298
+msgid "Remove"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:193
+#: inc/customizer/class-epicjungle-customizer.php:226
+#: inc/customizer/class-epicjungle-customizer.php:260
+#: inc/customizer/class-epicjungle-customizer.php:299
+#: inc/customizer/class-epicjungle-customizer.php:852
+#: inc/customizer/class-epicjungle-customizer.php:999
+#: inc/customizer/class-epicjungle-customizer.php:1798
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:830
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:194
+#: inc/customizer/class-epicjungle-customizer.php:227
+#: inc/customizer/class-epicjungle-customizer.php:261
+#: inc/customizer/class-epicjungle-customizer.php:300
+msgid "No logo selected"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:196
+#: inc/customizer/class-epicjungle-customizer.php:229
+#: inc/customizer/class-epicjungle-customizer.php:263
+#: inc/customizer/class-epicjungle-customizer.php:302
+msgid "Choose logo"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:215
+msgid "Transparent Header Logo"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:216
+msgid "Upload logo for transparent header"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:249
+msgid "Upload Scroll Logo"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:250
+msgid ""
+"Scroll Logo is the Logo that you want to appear when the user scrolls down "
+"and the header sticks in transparent header."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:287
+#. translators: label field for setting in Customizer
+msgid "Footer Logo"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:289
+#. translators: description field for setting in Customizer
+msgid "Footer logo inherits the same behavior for retina displays as desktop logo."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:320
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:321
+msgid "Customize the theme header."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:340
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:411
+msgid "Navbar Variant"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:341
+#: inc/customizer/class-epicjungle-customizer.php:1397
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:412
+msgid "This setting allows you to choose your header type."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:343
+#: inc/customizer/class-epicjungle-customizer.php:1399
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:414
+msgid "Solid"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:344
+#: inc/customizer/class-epicjungle-customizer.php:1400
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:415
+#: woocommerce/myaccount/navigation.php:30
+msgid "Dashboard"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:345
+#: inc/customizer/class-epicjungle-customizer.php:1401
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:416
+msgid "Shop"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:346
+#: inc/customizer/class-epicjungle-customizer.php:1402
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:417
+msgid "Simple"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:347
+#: inc/customizer/class-epicjungle-customizer.php:1403
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:418
+msgid "Social"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:367
+#: inc/customizer/class-epicjungle-customizer.php:1422
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:437
+msgid "Enable Topbar?"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:392
+#: inc/customizer/class-epicjungle-customizer.php:1445
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:460
+msgid "Topbar Skin"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:393
+#: inc/customizer/class-epicjungle-customizer.php:552
+#: inc/customizer/class-epicjungle-customizer.php:1446
+#: inc/customizer/class-epicjungle-customizer.php:1599
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:461
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:609
+msgid "This setting allows you to choose your topbar skin."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:418
+#: inc/customizer/class-epicjungle-customizer.php:1469
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:484
+msgid "Navbar Skin"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:422
+#: inc/customizer/class-epicjungle-customizer.php:1473
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:488
+msgid "Gray"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:445
+#: inc/customizer/class-epicjungle-customizer.php:471
+#: inc/customizer/class-epicjungle-customizer.php:1495
+#: inc/customizer/class-epicjungle-customizer.php:1520
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:510
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:535
+msgid "Enable Box Shadow?"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:496
+#: inc/customizer/class-epicjungle-customizer.php:1546
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:559
+msgid "Enable Transparent"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:523
+#: inc/customizer/class-epicjungle-customizer.php:1570
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:583
+msgid "Enable Transparent Logo"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:551
+#: inc/customizer/class-epicjungle-customizer.php:1598
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:608
+msgid "Text Color for Transparent Bg"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:577
+#: inc/customizer/class-epicjungle-customizer.php:1623
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:654
+msgid "Enable Sticky?"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:596
+#: inc/customizer/class-epicjungle-customizer.php:1643
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:674
+msgid "Enable Search?"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:619
+#: inc/customizer/class-epicjungle-customizer.php:1666
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:697
+msgid "Show My Account?"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:620
+#: inc/customizer/class-epicjungle-customizer.php:646
+#: inc/customizer/class-epicjungle-customizer.php:1667
+#: inc/customizer/class-epicjungle-customizer.php:1692
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:698
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:723
+msgid "Enable / disable account in Header."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:645
+#: inc/customizer/class-epicjungle-customizer.php:1691
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:722
+msgid "Show Shopping Cart?"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:675
+#: inc/customizer/class-epicjungle-customizer.php:1717
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:748
+msgid "Enable Buy Now Button"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:676
+#: inc/customizer/class-epicjungle-customizer.php:1718
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:749
+msgid "This setting allows you to show or hide Buy Now button"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:706
+#: inc/customizer/class-epicjungle-customizer.php:1744
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:776
+msgid "Enable Social Menu"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:707
+#: inc/customizer/class-epicjungle-customizer.php:1745
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:777
+msgid "This setting allows you to show or hide social menu links"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:735
+msgid "Button Link"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:736
+msgid "This setting allows you to change the button link"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:749
+#: inc/template-functions/navbar.php:1073
+msgid "Buy Template"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:757
+#: inc/customizer/class-epicjungle-customizer.php:2230
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:758
+#: inc/customizer/class-epicjungle-customizer.php:2231
+msgid "This setting allows you to change the button text"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:779
+msgid "Button CSS Class"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:780
+msgid "This setting allows you to add  button css"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:801
+msgid "Enable Button Icon"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:802
+#: inc/customizer/class-epicjungle-customizer.php:1375
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:391
+msgid "This setting allows you to show or hide button icon in Header."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:820
+msgid "fe-shopping-cart"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:828
+msgid "Enter Button Icon"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:829
+msgid "This setting allows you to enter the button icon."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:849
+msgid "Button Primary Color"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:850
+msgid "This setting allows you to choose your button color"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:853
+msgid "Custom"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:875
+msgid "Button Background"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:897
+msgid "Enable Modal"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:898
+msgid "This setting allows you to show or hide modal in button."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:924
+msgid "Enter Modal Title"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:925
+msgid "This setting allows you to enter the data toggle modal title."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:949
+msgid "Modal Static Content"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:950
+msgid "Choose a static content that will be displayed as modal content."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:977
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:978
+msgid "Customize the theme footer."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:996
+msgid "Footer Variant"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:997
+#: inc/customizer/class-epicjungle-customizer.php:1796
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:828
+msgid "This setting allows you to choose your footer type."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1000
+#: inc/customizer/class-epicjungle-customizer.php:1799
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:831
+msgid "Footer Simple"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1001
+msgid "Footer Social Icons"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1002
+#: inc/customizer/class-epicjungle-customizer.php:1801
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:833
+msgid "Footer Shop"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1003
+#: inc/customizer/class-epicjungle-customizer.php:1802
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:834
+msgid "Footer Blog"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1004
+#: inc/customizer/class-epicjungle-customizer.php:1803
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:835
+msgid "Footer v6"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1005
+#: inc/customizer/class-epicjungle-customizer.php:1804
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:836
+msgid "Footer v7"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1006
+#: inc/customizer/class-epicjungle-customizer.php:1805
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:837
+msgid "Footer v8"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1007
+#: inc/customizer/class-epicjungle-customizer.php:1806
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:838
+msgid "Footer v9"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1008
+#: inc/customizer/class-epicjungle-customizer.php:1807
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:839
+msgid "Footer v10"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1024
+#: inc/customizer/class-epicjungle-customizer.php:1826
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:858
+msgid "Footer Simple Skin"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1025
+#: inc/customizer/class-epicjungle-customizer.php:1827
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:859
+msgid "This setting allows you to choose your footer simple skin."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1043
+#: inc/customizer/class-epicjungle-customizer.php:1845
+#: inc/template-functions/footer.php:1122
+#: inc/template-functions/footer.php:1124
+#: inc/template-functions/footer.php:1126
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:877
+msgid "Contacts"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1051
+#: inc/customizer/class-epicjungle-customizer.php:1853
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:885
+msgid "Contact Title"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1052
+#: inc/customizer/class-epicjungle-customizer.php:1854
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:886
+msgid ""
+"This setting allows you to change \"Contacts\" word to something else in "
+"contact title."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1072
+#. translators: label field for setting in Customizer
+msgid "Copyright"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1074
+#: inc/customizer/class-epicjungle-customizer.php:1245
+#: inc/customizer/class-epicjungle-customizer.php:1876
+#: inc/customizer/class-epicjungle-customizer.php:2078
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:908
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:1110
+#. translators: description field for "Copyright" setting in Customizer
+msgid "HTML is allowed in this field."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1094
+msgid "Footer Static Content"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1095
+#: inc/customizer/class-epicjungle-customizer.php:1928
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:960
+msgid "Choose a static content that will be displayed in the footer area."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1118
+#. translators: label field for setting in Customizer
+msgid "Payment Methods"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1120
+#: inc/customizer/class-epicjungle-customizer.php:1953
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:985
+#. translators: description field for "Payment Methods" setting in Customizer
+msgid ""
+"This setting allows you to upload an image with available payment methods "
+"or anything you want.\n"
+"                    This image as well as site logos is optimized for "
+"retina displays, so the original image size should\n"
+"                    be twice as big as the final image that appears on the "
+"website."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1147
+#: inc/customizer/class-epicjungle-customizer.php:1980
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:1012
+msgid "Enable Newsletter Form"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1148
+#: inc/customizer/class-epicjungle-customizer.php:1981
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:1013
+msgid "This setting allows you to show or hide newsletter form in Footer."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1174
+#: inc/customizer/class-epicjungle-customizer.php:2007
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:1039
+#. translators: default value for "departments_title" setting in Customizer
+msgid "Newsletter Title"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1175
+#: inc/customizer/class-epicjungle-customizer.php:2008
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:1040
+msgid "This setting allows you to change newsletter title"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1197
+#: inc/customizer/class-epicjungle-customizer.php:2030
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:1062
+#. translators: default value for "departments_title" setting in Customizer
+msgid "Newsletter Description"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1198
+#: inc/customizer/class-epicjungle-customizer.php:2031
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:1063
+msgid "This setting allows you to change newsletter description"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1220
+#: inc/customizer/class-epicjungle-customizer.php:2053
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:1085
+#. translators: default value for "departments_title" setting in Customizer
+msgid "Newsletter Form"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1221
+#: inc/customizer/class-epicjungle-customizer.php:2054
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:1086
+msgid "Paste your newsletter signup form or shortcode"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1243
+#: inc/customizer/class-epicjungle-customizer.php:2076
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:1108
+#. translators: label field for setting in Customizer
+msgid "Download Our App Html"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1268
+#: inc/template-functions/blog.php:374
+#. translators: title of section in Customizer
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1269
+msgid ""
+"This section contains settings related to posts listing archives and single "
+"post."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1285
+#. translators: label field of control in Customizer
+msgid "Blog Layout"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1286
+msgid "This setting affects both the posts listing (your blog page) and archives."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1289
+#. translators: single item in a list of Blog Layout choices (in Customizer)
+msgid "Grid"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1291
+#. translators: single item in a list of Blog Layout choices (in Customizer)
+msgid "List"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1304
+#. translators: label field of control in Customizer
+msgid "List View Style"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1305
+msgid "This setting allows you to choose your list view"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1307
+msgid "Style v1"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1308
+msgid "Style v2"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1332
+msgid ""
+"This setting affects both the posts listing (your blog page) and archives. "
+"This works when blog sidebar has widgets"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1334
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:370
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1335
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:371
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1336
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1353
+msgid "Enable Blog Related Posts"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1354
+msgid "This setting allows you to enable related posts"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1374
+msgid "Enable Separate Header for single post Page"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1396
+msgid "Blog Navbar Variant"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1774
+msgid "Enable Separate Footer for Single Post Page"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1775
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:807
+msgid "This setting allows you to show or hide button icon in footer."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1795
+msgid "Blog Footer Variant"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1800
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:832
+msgid "Footer with Social Icons"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1874
+#. translators: label field for setting in Customizer
+msgid "Blog Page Copyright"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1897
+msgid "Blog Footer Static Widgets"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1898
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:930
+msgid "Choose a static content that will be displayed in the footer widget area."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1927
+msgid "Blog Footer Static Content"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:1951
+#. translators: label field for setting in Customizer
+msgid "Blog Payment Methods"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2119
+msgid "404 Style"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2120
+msgid "Select the style for 404 page"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2122
+msgid "404 - Simple"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2123
+msgid "404 - Illustration"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2140
+msgid "404 Image Upload"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2141
+msgid "This setting allows you to upload an image for 404 page."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2157
+msgid "Pre Title"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2178
+msgid "404 Title"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2196
+msgid "Subtitle"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2212
+msgid "Subtitle 2"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2248
+msgid "\"Back to Home\" button color"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2269
+msgid "Enable Search Form?"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2413
+msgid "Enable Custom Color?"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2414
+msgid "This settings allow you to apply your custom color option."
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2436
+msgid "Primary color"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:181
+msgid "This demo will import %s. It may take %s"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:182
+msgid ""
+"Menus, Widgets and Settings will not be imported. Content imported already "
+"will not be imported."
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:183
+msgid ""
+"Alternatively, you can import this template directly into your page via "
+"Edit with Elementor."
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:191
+msgid "56 items including 1 page & 55 images"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:191 inc/ocdi/class-epicjungle-ocdi.php:211
+#: inc/ocdi/class-epicjungle-ocdi.php:231 inc/ocdi/class-epicjungle-ocdi.php:241
+#: inc/ocdi/class-epicjungle-ocdi.php:251 inc/ocdi/class-epicjungle-ocdi.php:271
+#: inc/ocdi/class-epicjungle-ocdi.php:291 inc/ocdi/class-epicjungle-ocdi.php:301
+#: inc/ocdi/class-epicjungle-ocdi.php:322 inc/ocdi/class-epicjungle-ocdi.php:332
+#: inc/ocdi/class-epicjungle-ocdi.php:342 inc/ocdi/class-epicjungle-ocdi.php:352
+#: inc/ocdi/class-epicjungle-ocdi.php:423
+msgid "upto a minute"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:201
+msgid "30 items including 1 page, 4 posts & 25 images"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:201
+msgid "upto 2 minutes"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:211
+msgid "59 items including 1 page, 46 images & 12 products"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:231
+msgid "56 items including 1 page, 43 images, 4 posts & 8 projects"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:241
+msgid "1 page, 24 images, 4 posts & 6 projects"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:251 inc/ocdi/class-epicjungle-ocdi.php:332
+msgid "23 items including 1 page & 22 images"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:261
+msgid "28 items including 1 page & 27 images"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:261 inc/ocdi/class-epicjungle-ocdi.php:281
+#: inc/ocdi/class-epicjungle-ocdi.php:363 inc/ocdi/class-epicjungle-ocdi.php:373
+#: inc/ocdi/class-epicjungle-ocdi.php:383 inc/ocdi/class-epicjungle-ocdi.php:392
+#: inc/ocdi/class-epicjungle-ocdi.php:400
+msgid "2-3 minutes"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:271
+msgid "10 items including 1 page & 09 images"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:281
+msgid "35 items includes 1 page, 28 images & 6 projects"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:291
+msgid "1 page & 28 images"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:301
+msgid "1 page & 14 images"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:312
+msgid "44 items including 1 page, 30 images & 13 posts"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:312
+msgid "1-2 minutes"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:322
+msgid "24 items including 1 page, 17 images & 6 projects"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:342
+msgid "12 items including 3 pages & 9 images"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:352
+msgid "9 items including 2 pages, 5 images & 2 static contents"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:363
+msgid "41 blog posts, 6 pages, & 28 images"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:373
+msgid "36 portfolio projects, 3 pages, & 30 images"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:383
+msgid "60 items including  3 pages,37 products, & 20 images"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:392
+msgid "28 static contents"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:400
+msgid "133 items"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:410
+msgid "It imports the entire demo. It may take upto 5 minutes"
+msgstr ""
+
+#: inc/ocdi/class-epicjungle-ocdi.php:423
+msgid "1 page, 7 docs, 11 articles, 2 static content & 6 image"
+msgstr ""
+
+#: inc/template-functions/blog-post.php:111 inc/template-functions/page.php:43
+msgid "Pages:"
+msgstr ""
+
+#: inc/template-functions/blog-post.php:132
+msgid " "
+msgstr ""
+
+#: inc/template-functions/blog-post.php:140
+msgid "Tags:"
+msgstr ""
+
+#: inc/template-functions/blog-post.php:170
+msgid "Entry navigation"
+msgstr ""
+
+#: inc/template-functions/blog-post.php:173
+msgid "Prev post"
+msgstr ""
+
+#: inc/template-functions/blog-post.php:182
+#: inc/template-functions/blog-post.php:194 inc/template-functions/blog.php:48
+#: woocommerce/content-widget-reviews.php:35
+msgid "by %s"
+msgstr ""
+
+#: inc/template-functions/blog-post.php:190
+msgid "Next post"
+msgstr ""
+
+#: inc/template-functions/blog-post.php:263
+msgid ""
+"This content is password protected. To view it please enter your password "
+"below:"
+msgstr ""
+
+#: inc/template-functions/blog-post.php:265
+msgid "Password:"
+msgstr ""
+
+#: inc/template-functions/blog-post.php:347
+msgid "Related posts"
+msgstr ""
+
+#: inc/template-functions/blog.php:131
+msgid "Showing the single post"
+msgstr ""
+
+#: inc/template-functions/blog.php:134
+#. translators: %d: total posts
+msgid "Showing all %d post"
+msgid_plural "Showing all %d posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-functions/blog.php:196
+#: inc/woocommerce/template-functions/product-archive.php:101
+msgid "Show"
+msgstr ""
+
+#: inc/template-functions/blog.php:203
+#: inc/woocommerce/template-functions/product-archive.php:109
+msgid "All"
+msgstr ""
+
+#: inc/template-functions/blog.php:209
+msgid "posts per page"
+msgstr ""
+
+#: inc/template-functions/blog.php:387
+#. translators: label for link to the previous comments page
+msgid "Older comments"
+msgstr ""
+
+#: inc/template-functions/blog.php:391
+#. translators: label for link to the next comments page
+msgid "Newer comments"
+msgstr ""
+
+#: inc/template-functions/footer.php:229
+msgid ""
+"&copy; All rights reserved. Made by <a href=\"https:madrasthemes.com\" "
+"target=\"_blank\" rel=\"noopener noreferrer\">MadrasThemes</a>"
+msgstr ""
+
+#: inc/template-functions/footer.php:934
+msgid "Don’t miss a single story"
+msgstr ""
+
+#: inc/template-functions/footer.php:935
+msgid "Subscribe to our newsletter to receive latest articles to your inbox weekly."
+msgstr ""
+
+#: inc/template-functions/footer.php:1176
+msgid "Or connect with us on:"
+msgstr ""
+
+#: inc/template-functions/footer.php:1216
+msgid "Is Social Icon Menu"
+msgstr ""
+
+#: inc/template-functions/global.php:139
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-functions/navbar.php:590
+msgid "Menu"
+msgstr ""
+
+#: inc/template-functions/navbar.php:701
+msgid ""
+" Sign in to your account using email and password provided during "
+"registration."
+msgstr ""
+
+#: inc/template-functions/navbar.php:716
+msgid ""
+" Registration takes less than a minute but gives you full control over your "
+"orders."
+msgstr ""
+
+#: inc/template-functions/navbar.php:740
+#: woocommerce/myaccount/form-login.php:191
+msgid "Username"
+msgstr ""
+
+#: inc/template-functions/navbar.php:741
+#: woocommerce/myaccount/form-login.php:192
+msgid "Full name"
+msgstr ""
+
+#: inc/template-functions/navbar.php:747
+#: woocommerce/myaccount/form-edit-account.php:74
+#: woocommerce/myaccount/form-login.php:198
+msgid "Email address"
+msgstr ""
+
+#: inc/template-functions/navbar.php:748 wedocs/content-modal.php:32
+#: wedocs/content-modal.php:34 woocommerce/global/form-login.php:33
+#: woocommerce/myaccount/form-login.php:111
+#: woocommerce/myaccount/form-login.php:199
+msgid "Email"
+msgstr ""
+
+#: inc/template-functions/navbar.php:753 inc/template-functions/navbar.php:754
+#: woocommerce/global/form-login.php:41 woocommerce/global/form-login.php:42
+#: woocommerce/myaccount/form-login.php:119
+#: woocommerce/myaccount/form-login.php:120
+#: woocommerce/myaccount/form-login.php:208
+#: woocommerce/myaccount/form-login.php:210
+msgid "Password"
+msgstr ""
+
+#: inc/template-functions/navbar.php:756 woocommerce/global/form-login.php:45
+#: woocommerce/myaccount/form-login.php:123
+#: woocommerce/myaccount/form-login.php:213
+msgid "Show password"
+msgstr ""
+
+#: inc/template-functions/navbar.php:760
+#: woocommerce/myaccount/form-login.php:229
+msgid "A password will be sent to your email address."
+msgstr ""
+
+#: inc/template-functions/navbar.php:765
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:201
+#: woocommerce/global/form-login.php:72
+#: woocommerce/myaccount/form-login.php:146
+#: woocommerce/myaccount/form-login.php:236
+msgid "Sign up"
+msgstr ""
+
+#: inc/template-functions/navbar.php:771
+#: woocommerce/myaccount/form-login.php:239
+msgid "Already have an account? "
+msgstr ""
+
+#: inc/template-functions/navbar.php:771
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:145
+#: woocommerce/global/form-login.php:65
+#: woocommerce/myaccount/form-login.php:142
+#: woocommerce/myaccount/form-login.php:239
+msgid "Sign in"
+msgstr ""
+
+#: inc/template-functions/navbar.php:1014
+#: woocommerce/checkout/form-checkout.php:57
+msgid "Your cart"
+msgstr ""
+
+#: inc/template-functions/navbar.php:1114
+#: inc/template-functions/navbar.php:1139
+msgid "Search site"
+msgstr ""
+
+#: inc/template-functions/navbar.php:1118
+#: inc/template-functions/navbar.php:1143
+msgid "All Categories"
+msgstr ""
+
+#: inc/template-functions/navbar.php:1132
+msgid "Close"
+msgstr ""
+
+#: inc/template-functions/navbar.php:1191
+msgid "What project are you looking for?"
+msgstr ""
+
+#: inc/template-functions/page.php:113
+msgid "Top"
+msgstr ""
+
+#: inc/wedocs/epicjungle-wedocs-functions.php:16
+msgid "Home"
+msgstr ""
+
+#: inc/wedocs/epicjungle-wedocs-functions.php:24
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/wedocs/epicjungle-wedocs-functions.php:34
+msgid "Docs"
+msgstr ""
+
+#: inc/wedocs/epicjungle-wedocs-functions.php:188
+#. translators: %d: ID of a post
+msgid "#%d (no title)"
+msgstr ""
+
+#: inc/wedocs/epicjungle-wedocs-template-functions.php:17
+msgid "Search Help"
+msgstr ""
+
+#: inc/wedocs/epicjungle-wedocs-template-functions.php:111
+msgid "Related Articles"
+msgstr ""
+
+#: inc/wedocs/epicjungle-wedocs-template-functions.php:293
+#. translators: %s: Name of current post.
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: inc/wedocs/epicjungle-wedocs-template-functions.php:305
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/wedocs/class-epicjungle-wedocs-customizer.php:41
+msgid "Helpcenter"
+msgstr ""
+
+#: inc/wedocs/class-epicjungle-wedocs-customizer.php:42
+msgid "This section contains settings related to single article"
+msgstr ""
+
+#: inc/wedocs/class-epicjungle-wedocs-customizer.php:66
+msgid "Hide Action"
+msgstr ""
+
+#: inc/wedocs/class-epicjungle-wedocs-customizer.php:67
+msgid "This setting allows you to hide action block."
+msgstr ""
+
+#: inc/wedocs/class-epicjungle-wedocs-customizer.php:75
+msgid "Haven't found the answer? We can help."
+msgstr ""
+
+#: inc/wedocs/class-epicjungle-wedocs-customizer.php:82
+msgid "Action Title"
+msgstr ""
+
+#: inc/wedocs/class-epicjungle-wedocs-customizer.php:101
+msgid "fe-life-buoy"
+msgstr ""
+
+#: inc/wedocs/class-epicjungle-wedocs-customizer.php:106
+msgid "Icon Class"
+msgstr ""
+
+#: inc/wedocs/class-epicjungle-wedocs-customizer.php:128
+#: wedocs/content-modal.php:16
+msgid "Submit a request"
+msgstr ""
+
+#: inc/wedocs/class-epicjungle-wedocs-customizer.php:135
+msgid "Action link Text"
+msgstr ""
+
+#: inc/wedocs/class-epicjungle-wedocs-customizer.php:159
+msgid "Contact us and we'll get back to you as soon as possible."
+msgstr ""
+
+#: inc/wedocs/class-epicjungle-wedocs-customizer.php:166
+msgid "Action Sub Title"
+msgstr ""
+
+#: inc/wedocs/class-epicjungle-wedocs-customizer.php:191
+msgid "Button text Url "
+msgstr ""
+
+#: inc/wedocs/class-epicjungle-wedocs-customizer.php:216
+msgid "Is modal enable?"
+msgstr ""
+
+#: inc/wedocs/class-epicjungle-wedocs-customizer.php:217
+msgid "This setting allows you to add custom url."
+msgstr ""
+
+#: inc/woocommerce/epicjungle-wc-template-functions-overrides.php:86
+#: woocommerce/wishlist-view.php:141
+msgid "Out of stock"
+msgstr ""
+
+#: inc/woocommerce/epicjungle-wc-template-functions-overrides.php:99
+msgid "View cart"
+msgstr ""
+
+#: inc/woocommerce/epicjungle-wc-template-functions-overrides.php:106
+#: woocommerce/cart/mini-cart.php:134
+msgid "Checkout"
+msgstr ""
+
+#: inc/woocommerce/epicjungle-wc-template-functions-overrides.php:216
+msgid "required"
+msgstr ""
+
+#: inc/woocommerce/epicjungle-wc-template-functions-overrides.php:280
+msgid "Select a country&hellip;"
+msgstr ""
+
+#: inc/woocommerce/epicjungle-wc-template-functions-overrides.php:288
+msgid "Update country"
+msgstr ""
+
+#: inc/woocommerce/epicjungle-wc-template-functions-overrides.php:306
+#: inc/woocommerce/epicjungle-wc-template-functions-overrides.php:307
+#: woocommerce/cart/shipping-calculator.php:56
+msgid "Select an option&hellip;"
+msgstr ""
+
+#: inc/woocommerce/epicjungle-wc-template-functions-overrides.php:355
+msgid "Choose an option"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:55
+msgid "Enable Dashboard Header for User Login"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:56
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:76
+msgid "This setting allows you to show or hide dashboard Header."
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:75
+msgid "Enable Footer v10 for User Login"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:89
+msgid "My Account"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:90
+msgid "This section contains settings related to my account."
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:107
+msgid "My Account Page Style"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:108
+msgid "Select the style for My Account page"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:110
+msgid "Sign In - Sign Up"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:111
+msgid "Sign In - Illustration"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:112
+msgid "Sign In - Image"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:128
+msgid "Upload an image"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:129
+msgid ""
+"If you have a cool picture that you want to display on the 404 page you can "
+"upload it here."
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:153
+#. translators: label field of setting responsible for keeping the page title
+#. of blog in posts listing (no Static Front Page).
+msgid "Login Form Title"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:154
+msgid "This setting allows you to set login form title"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:162
+msgid ""
+"Sign in to your account using email and password provided during "
+"registration."
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:170
+#. translators: label field of setting responsible for keeping the page title
+#. of blog in posts listing (no Static Front Page).
+msgid "Login Form Description"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:171
+msgid "This setting allows you to set login form description"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:185
+msgid "Login Heading Alignment"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:186
+msgid "This setting allows you to set login heading alignment"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:188
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:253
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:319
+msgid "Left"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:189
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:254
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:320
+msgid "Center"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:190
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:255
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:321
+msgid "Right"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:209
+#. translators: label field of setting responsible for keeping the page title
+#. of blog in posts listing (no Static Front Page).
+msgid "Register Form Title"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:210
+msgid "This setting allows you to set register form title"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:224
+msgid ""
+"Registration takes less than a minute but gives you full control over your "
+"orders."
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:232
+#. translators: label field of setting responsible for keeping the page title
+#. of blog in posts listing (no Static Front Page).
+msgid "Register Form Description"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:233
+msgid "This setting allows you to set register form description"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:250
+msgid "Register Heading Alignment"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:251
+msgid "This setting allows you to set register heading alignment"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:269
+msgid "Forgot your password?"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:277
+#. translators: label field of setting responsible for keeping the page title
+#. of blog in posts listing (no Static Front Page).
+msgid "Forget Password Title"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:278
+msgid "This setting allows you to set forget password form title"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:288
+msgid ""
+"Change your password in three easy steps. This helps to keep your new "
+"password secure."
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:296
+#. translators: label field of setting responsible for keeping the page title
+#. of blog in posts listing (no Static Front Page).
+msgid "Forget Password Form Description"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:297
+msgid "This setting allows you to set forget password form description"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:316
+msgid "Form Footer Alignment"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:317
+msgid "This setting allows you to set form footer alignment"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:346
+msgid "Shop Page"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:347
+msgid "This section contains settings related to products listing and archives."
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:367
+#: inc/woocommerce/class-epicjungle-woocommerce.php:56
+#. translators: label field of control in Customizer
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:368
+msgid "Select from the three sidebar layouts for shop"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:372
+msgid "Full Width"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:390
+msgid "Enable Separate Header for Shop Page"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:806
+msgid "Enable Separate Footer for Shop Page"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:827
+msgid "Shop Footer Variant"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:906
+#. translators: label field for setting in Customizer
+msgid "Shop Page Copyright"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:929
+msgid "Shop Footer Static Widgets"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:959
+msgid "Shop Footer Static Content"
+msgstr ""
+
+#: inc/woocommerce/class-epicjungle-woocommerce-customizer.php:983
+#. translators: label field for setting in Customizer
+msgid "Shop Payment Methods"
+msgstr ""
+
+#: inc/woocommerce/classes/class-epicjungle-wc-helper.php:25
+#: inc/woocommerce/template-functions/single-product.php:384
+msgid "Size Guide"
+msgstr ""
+
+#: inc/woocommerce/integrations.php:81
+msgid "Favorites"
+msgstr ""
+
+#: inc/woocommerce/template-functions/product-archive.php:114
+msgid "products per page"
+msgstr ""
+
+#: inc/woocommerce/template-functions/product-archive.php:187
+msgid "Your selection:"
+msgstr ""
+
+#: inc/woocommerce/template-functions/product-loop.php:50
+msgid "Sale!"
+msgstr ""
+
+#: inc/woocommerce/template-functions/single-product.php:96
+msgid "(%s) based on %s review"
+msgid_plural "(%s) based on %s reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/woocommerce/template-functions/single-product.php:177
+#. translators: 1: reviews count
+msgid "%s Review"
+msgid_plural "%s Reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/woocommerce/template-functions/single-product.php:289
+msgid "verified owner"
+msgstr ""
+
+#: inc/woocommerce/template-functions/single-product.php:308
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: inc/wpforms/integration.php:172
+msgid "Enable Form Row"
+msgstr ""
+
+#: inc/wpforms/integration.php:206
+msgid "Button Toggle?"
+msgstr ""
+
+#: inc/wpforms/integration.php:207
+msgid "Check this option to use buttons for radio buttons."
+msgstr ""
+
+#: inc/wpforms/integration.php:225
+msgid "Is Dark?"
+msgstr ""
+
+#: inc/wpforms/integration.php:226
+msgid ""
+"Check this option to change button classes in Dark Background. ( This "
+"option will work when Button Toggle option enabled )"
+msgstr ""
+
+#: search.php:21 searchform.php:2
+msgid "Search for:"
+msgstr ""
+
+#: sidebar-shop.php:21
+msgid "Filter products"
+msgstr ""
+
+#: templates/blog/content-grid.php:24 templates/blog/content-list.php:72
+msgid "Featured"
+msgstr ""
+
+#: templates/contents/content-none.php:16
+msgid "Nothing Found"
+msgstr ""
+
+#: templates/contents/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: templates/contents/content-none.php:28
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: templates/contents/content-none.php:33
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: templates/docs/loop.php:30
+msgid "View More"
+msgstr ""
+
+#: templates/widgets/epicjungle-posts-widget.php:29
+msgid "No posts found."
+msgstr ""
+
+#: wedocs/content-feedback.php:8
+msgid "%d person found this useful"
+msgid_plural "%d persons found this useful"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wedocs/content-feedback.php:8 wedocs/content-feedback.php:9
+msgid "No votes yet"
+msgstr ""
+
+#: wedocs/content-feedback.php:9
+msgid "%d person found this not useful"
+msgid_plural "%d persons found this not useful"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wedocs/content-feedback.php:12
+msgid "Did you find this article helpful?"
+msgstr ""
+
+#: wedocs/content-modal.php:25 wedocs/content-modal.php:27
+msgid "Name"
+msgstr ""
+
+#: wedocs/content-modal.php:39 wedocs/content-modal.php:41
+msgid "Subject"
+msgstr ""
+
+#: wedocs/content-modal.php:46
+msgid "message"
+msgstr ""
+
+#: wedocs/content-modal.php:55
+msgid "Send"
+msgstr ""
+
+#: wedocs/docs-sidebar.php:7
+msgid "Sidebar"
+msgstr ""
+
+#: wedocs/shortcode.php:34
+msgid "Learn more"
+msgstr ""
+
+#: woocommerce/add-to-wishlist-button.php:49
+msgid "Wishlist"
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:39 woocommerce/checkout/thankyou.php:102
+msgid "Return to shop"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:56
+#. Translators: $s shipping destination.
+msgid "Shipping to %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:57
+msgid "Change address"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:59
+msgid "Shipping options will be updated during checkout."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:68
+msgid "Shipping costs are calculated during checkout."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:72
+msgid "Enter your address to view shipping options."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:76
+msgid ""
+"There are no shipping options available. Please ensure that your address "
+"has been entered correctly, or contact us if you need any help."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:82
+#. Translators: $s shipping destination.
+msgid "No shipping options were found for %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:85
+msgid "Enter a different address"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:25
+msgid "Cart totals"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:30 woocommerce/cart/cart-totals.php:31
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:57
+#. translators: %s location.
+msgid "(estimated for %s)"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:91 woocommerce/cart/cart-totals.php:92
+msgid "Shipping"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:100 woocommerce/cart/mini-cart.php:112
+msgid "Total"
+msgstr ""
+
+#: woocommerce/cart/cart.php:63
+msgid "Product"
+msgstr ""
+
+#: woocommerce/cart/cart.php:78
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/cart/cart.php:83
+msgid "Price"
+msgstr ""
+
+#: woocommerce/cart/cart.php:93 woocommerce/global/quantity-input.php:28
+msgid "Quantity"
+msgstr ""
+
+#: woocommerce/cart/cart.php:122 woocommerce/cart/mini-cart.php:85
+msgid "Remove this item"
+msgstr ""
+
+#: woocommerce/cart/cart.php:144 woocommerce/checkout/form-coupon.php:35
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:146 woocommerce/checkout/form-coupon.php:44
+msgid "Apply coupon"
+msgstr ""
+
+#: woocommerce/cart/cart.php:154 woocommerce/cart/cart.php:156
+msgid "Update cart"
+msgstr ""
+
+#: woocommerce/cart/cross-sells.php:24
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:148
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/cart/proceed-to-checkout-button.php:27
+msgid "Proceed to checkout"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:24
+msgid "Calculate shipping"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:31
+msgid "Select a country / region&hellip;"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:50
+#: woocommerce/cart/shipping-calculator.php:55
+#: woocommerce/cart/shipping-calculator.php:67
+msgid "State / County"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:76
+msgid "City"
+msgstr ""
+
+#: woocommerce/cart/shipping-calculator.php:82
+msgid "Postcode / ZIP"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:24
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:28
+msgid "Billing details"
+msgstr ""
+
+#: woocommerce/checkout/form-billing.php:56
+msgid "Create an account?"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:30
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:28
+msgid "Have a coupon code?"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:28
+msgid "Click here to enter your code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:40
+msgid "If you have a coupon code, please apply it below."
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:42
+msgid "Your coupon code"
+msgstr ""
+
+#: woocommerce/checkout/form-coupon.php:44
+msgid "Apply code"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:28
+msgid "Returning customer?"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:28
+msgid "Click here to login"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:34
+msgid ""
+"If you have shopped with us before, please enter your details below. If you "
+"are a new customer, please proceed to the Billing section."
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:27
+msgid "Ship to a different address?"
+msgstr ""
+
+#: woocommerce/checkout/form-shipping.php:61
+msgid "Additional information"
+msgstr ""
+
+#: woocommerce/checkout/payment.php:33
+msgid ""
+"Sorry, it seems that there are no available payment methods for your state. "
+"Please contact us if you require assistance or wish to make alternate "
+"arrangements."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:33
+msgid "Please fill in your details above to see available payment methods."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:42
+#. translators: $1 and $2 opening and closing emphasis tags respectively
+msgid ""
+"Since your browser does not support JavaScript, or it is disabled, please "
+"ensure you click the %1$sUpdate Totals%2$s button before placing your "
+"order. You may be charged more than the amount stated above if you fail to "
+"do so."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:44
+msgid "Update totals"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:75
+#: woocommerce/myaccount/orders.php:162
+msgid "Subtotal:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:34
+msgid ""
+"Unfortunately your order cannot be processed as the originating "
+"bank/merchant has declined your transaction. Please attempt your purchase "
+"again."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:37
+msgid "Pay"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:39
+msgid "My account"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:45
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:50
+msgid "Order number:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:57
+msgid "Date:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:64
+msgid "Total:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:72
+msgid "Email:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:81
+msgid "Payment method:"
+msgstr ""
+
+#: woocommerce/content-widget-price-filter.php:73
+msgid "Filter"
+msgstr ""
+
+#: woocommerce/global/form-login.php:30
+msgid "Username or email"
+msgstr ""
+
+#: woocommerce/global/form-login.php:56
+#: woocommerce/myaccount/form-login.php:133
+msgid "Keep me signed in"
+msgstr ""
+
+#: woocommerce/global/form-login.php:61
+#: woocommerce/myaccount/form-login.php:137
+msgid "Forgot password?"
+msgstr ""
+
+#: woocommerce/global/form-login.php:71
+#: woocommerce/myaccount/form-login.php:145
+msgid "Don&#039;t have an account?"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:28
+#. translators: %s: Quantity.
+msgid "%s quantity"
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:60
+#: woocommerce/myaccount/payment-methods.php:79
+msgid "Add payment method"
+msgstr ""
+
+#: woocommerce/myaccount/form-add-payment-method.php:66
+msgid ""
+"New payment methods can only be added during checkout. Please contact us if "
+"you require assistance."
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:37
+msgid "Change avatar"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:45
+msgid "Upload JPG, GIF or PNG image. 300 x 300 required."
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:54
+msgid "First name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:61
+msgid "Last Name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:69
+msgid "Display name"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:70
+msgid ""
+"This will be how your name will be displayed in the account section and in "
+"reviews"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:80
+msgid "Current password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:95
+msgid "New password (leave blank to leave unchanged)"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:107
+msgid "Confirm new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:125
+msgid "Save changes"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:20
+#: woocommerce/myaccount/my-address.php:26
+#: woocommerce/myaccount/my-address.php:35
+#: woocommerce/order/order-details-customer.php:26
+msgid "Billing address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:20
+#: woocommerce/myaccount/my-address.php:27
+#: woocommerce/order/order-details-customer.php:50
+msgid "Shipping address"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-address.php:49
+msgid "Save address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:109
+msgid "Username or email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:220
+#: woocommerce/myaccount/form-login.php:221
+msgid "Confirm Password"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:40
+msgid "Fill in your email address below."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:41
+msgid "We'll email you a temporary code."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:42
+msgid "Use the code to change your password on our secure website."
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:50
+msgid " Enter your email address"
+msgstr ""
+
+#: woocommerce/myaccount/form-lost-password.php:61
+msgid "Reset password"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:27
+msgid "Enter a new password below."
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:30
+msgid "New password"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:34
+msgid "Re-enter new password"
+msgstr ""
+
+#: woocommerce/myaccount/form-reset-password.php:47
+msgid "Save"
+msgstr ""
+
+#: woocommerce/myaccount/lost-password-confirmation.php:26
+msgid "Password reset email has been sent."
+msgstr ""
+
+#: woocommerce/myaccount/lost-password-confirmation.php:30
+msgid ""
+"A password reset email has been sent to the email address on file for your "
+"account, but may take several minutes to show up in your inbox. Please wait "
+"at least 10 minutes before attempting another reset."
+msgstr ""
+
+#: woocommerce/myaccount/my-account.php:33
+msgid "Account menu"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:46
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:64
+msgid "Add"
+msgstr ""
+
+#: woocommerce/myaccount/my-address.php:69
+msgid "You have not set up this type of address yet."
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:96
+#. translators: 1: formatted order total 2: total order items
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/orders.php:157
+msgid "Quantity:"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:208
+msgid "Showing the single order"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:211
+#. translators: %d: total results
+msgid "Showing all %d order"
+msgid_plural "Showing all %d orders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/orders.php:237
+msgid "Load Previous Orders"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:241
+msgid "Load More Orders"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:248
+msgid "Browse products"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:249
+msgid "No order has been made yet."
+msgstr ""
+
+#: woocommerce/myaccount/payment-methods.php:49
+#. translators: 1: credit card type 2: last 4 digits
+msgid "%1$s ending in %2$s"
+msgstr ""
+
+#: woocommerce/myaccount/payment-methods.php:70
+msgid "No saved methods found."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:26
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"the \"Track\" button. This was given to you on your receipt and in the "
+"confirmation email you should have received."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:30
+msgid "Order ID"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:31
+msgid "Found in your order confirmation email."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:34
+msgid "Billing email"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:35
+msgid "Email you used during checkout."
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:37
+msgid "Track"
+msgstr ""
+
+#: woocommerce/order/order-again.php:22
+msgid "Order again"
+msgstr ""
+
+#: woocommerce/order/order-details-customer.php:30
+#: woocommerce/order/order-details-customer.php:54
+#: woocommerce/single-product/meta.php:31
+msgid "N/A"
+msgstr ""
+
+#: woocommerce/order/order-details.php:44
+msgid "Order details"
+msgstr ""
+
+#: woocommerce/order/order-details.php:89
+msgid "Note:"
+msgstr ""
+
+#: woocommerce/order/order-downloads.php:24
+msgid "Downloads"
+msgstr ""
+
+#: woocommerce/order/order-downloads.php:59
+msgid "&infin;"
+msgstr ""
+
+#: woocommerce/order/order-downloads.php:65
+msgid "Never"
+msgstr ""
+
+#: woocommerce/order/tracking.php:48
+msgid "Order updates"
+msgstr ""
+
+#: woocommerce/order/tracking.php:56
+msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:32
+msgid "This product is currently out of stock and unavailable."
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:40
+msgid "Choose"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/variable.php:52
+msgid "Clear"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:31
+msgid "SKU:"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:35
+msgid "Category:"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/meta.php:37
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product/related.php:28
+msgid "Related products"
+msgstr ""
+
+#: woocommerce/single-product/short-description.php:34
+msgid " Read more"
+msgstr ""
+
+#: woocommerce/single-product/up-sells.php:27
+msgid "You may also like&hellip;"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:52
+msgid "There are no reviews yet."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:85
+msgid "Rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:86
+msgid "Choose rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:87
+msgid "Perfect"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:88
+msgid "Good"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Average"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Not that bad"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:91
+msgid "Very poor"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:99
+msgid " Your review must be at least 50 characters."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:101
+msgid "Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:108
+msgid "Leave a Reply"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:123
+#. translators: %s opening and closing link tags respectively
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:133
+msgid "Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: woocommerce/wishlist-view.php:73
+msgid "Remove this product"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:141
+msgid "In Stock"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:150
+#. translators: date added label: 1 date added.
+msgid "Added on: %s"
+msgstr ""
+
+#: woocommerce/wishlist-view.php:179
+msgid "No products added to the wishlist"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "EpicJungle"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid ""
+"https://themeforest.net/item/epicjungle-multipurpose-business-wordpress-theme/31"
+"251088"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A truly multipurpose WordPress Theme designed to facilitate the needs of "
+"businesses from different niches."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "MadrasThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themeforest.net/user/madrasthemes/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Coming Soon"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2171
+msgctxt "front-end"
+msgid "404"
+msgstr ""
+
+#: 404.php:21
+msgctxt "front-end"
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:30 inc/customizer/class-epicjungle-customizer.php:2150
+msgctxt "front-end"
+msgid "Error code: 404"
+msgstr ""
+
+#: 404.php:37
+msgctxt "front-end"
+msgid "Page not found!"
+msgstr ""
+
+#: 404.php:42 inc/customizer/class-epicjungle-customizer.php:2189
+msgctxt "front-end"
+msgid "It seems we can’t find the page you are looking for."
+msgstr ""
+
+#: 404.php:51 inc/customizer/class-epicjungle-customizer.php:2205
+msgctxt "front-end"
+msgid "Or try"
+msgstr ""
+
+#: inc/classes/class-epicjungle-walker-comment.php:59
+msgctxt "front-end"
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/classes/class-epicjungle-walker-comment.php:61
+msgctxt "front-end"
+msgid ""
+"Your comment is awaiting moderation. This is a preview, your comment will "
+"be visible after it has been approved."
+msgstr ""
+
+#: inc/template-functions/blog-post.php:223
+#. translators: comment author name
+msgctxt "front-end"
+msgid "Your name"
+msgstr ""
+
+#: inc/template-functions/blog-post.php:235
+#. translators: comment author e-mail
+msgctxt "front-end"
+msgid "Your email"
+msgstr ""
+
+#: inc/template-functions/blog-post.php:248
+msgctxt "front-end"
+msgid "Save my name and email in this browser for the next time I comment."
+msgstr ""
+
+#: inc/template-functions/blog.php:251 woocommerce/loop/pagination.php:37
+#. translators: aria-label for posts navigation wrapper
+msgctxt "front-end"
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/template-functions/blog.php:257 woocommerce/loop/pagination.php:43
+msgctxt "front-end"
+msgid "Prev"
+msgstr ""
+
+#: inc/template-functions/blog.php:282 woocommerce/loop/pagination.php:68
+msgctxt "front-end"
+msgid "Next"
+msgstr ""
+
+#: inc/template-functions/blog.php:357
+msgctxt "front-end"
+msgid "Sidebar"
+msgstr ""
+
+#: inc/template-functions/navbar.php:696 inc/template-functions/navbar.php:805
+msgctxt "front-end"
+msgid "Sign in"
+msgstr ""
+
+#: inc/template-functions/navbar.php:711 inc/template-functions/navbar.php:809
+msgctxt "front-end"
+msgid "Sign up"
+msgstr ""
+
+#: inc/template-functions/navbar.php:791
+#. translators: a small text before "log in" link in Navbar
+msgctxt "front-end"
+msgid "Hello,"
+msgstr ""
+
+#: inc/woocommerce/epicjungle-woocommerce-function.php:101
+msgctxt "front-end"
+msgid "Filters"
+msgstr ""
+
+#: inc/woocommerce/template-functions/my-account.php:42
+msgctxt "front-end"
+msgid "My Account"
+msgstr ""
+
+#: inc/woocommerce/template-functions/my-account.php:47
+msgctxt "front-end"
+msgid "Orders history"
+msgstr ""
+
+#: inc/woocommerce/template-functions/my-account.php:50
+msgctxt "front-end"
+msgid "Payment methods"
+msgstr ""
+
+#: inc/woocommerce/template-functions/my-account.php:57
+msgctxt "front-end"
+msgid "Dashboard"
+msgstr ""
+
+#: inc/woocommerce/template-functions/single-product.php:115
+msgctxt "front-end"
+msgid "Sale"
+msgstr ""
+
+#: inc/woocommerce/template-functions/single-product.php:185
+#. translators: 1: average rating
+msgctxt "front-end"
+msgid "%s overall rating"
+msgstr ""
+
+#: inc/woocommerce/template-functions/single-product.php:191
+#. translators: 1: sum of fives and fours, 2: total number of reviews, 3: ratio
+#. (in percentage) of recommended to total
+msgctxt "front-end"
+msgid "%d out of %d (%d%%)"
+msgstr ""
+
+#: inc/woocommerce/template-functions/single-product.php:196
+msgctxt "front-end"
+msgid "customers recommended this product"
+msgstr ""
+
+#: search.php:43
+msgctxt "front-end"
+msgid "Nothing found! Please refine your search and try again."
+msgstr ""
+
+#: woocommerce/cart/cart.php:125 woocommerce/myaccount/form-edit-account.php:42
+msgctxt "front-end"
+msgid "Remove"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:129
+msgctxt "front-end"
+msgid "View Cart"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:97
+msgctxt "front-end"
+msgid "Order not found"
+msgstr ""
+
+#: woocommerce/myaccount/form-edit-account.php:87
+#: woocommerce/myaccount/form-edit-account.php:101
+#: woocommerce/myaccount/form-edit-account.php:113
+msgctxt "front-end"
+msgid "Show password"
+msgstr ""
+
+#: woocommerce/order/form-tracking.php:25
+msgctxt "front-end"
+msgid "Order tracking form"
+msgstr ""
+
+#: woocommerce/order/tracking.php:28
+msgctxt "front-end"
+msgid "Order ID:"
+msgstr ""
+
+#: woocommerce/order/tracking.php:34
+msgctxt "front-end"
+msgid "Placed on:"
+msgstr ""
+
+#: woocommerce/order/tracking.php:40
+msgctxt "front-end"
+msgid "Order status:"
+msgstr ""
+
+#: woocommerce/single-product/add-to-cart/grouped.php:64
+msgctxt "front-end"
+msgid "I want to buy one"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:106
+msgctxt "front-end"
+msgid "Submit a Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:107
+msgctxt "front-end"
+msgid "Write a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:116
+msgctxt "front-end"
+msgid "Your email address will not be published."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:118
+#. translators: related to comment form; phrase follows by red mark
+msgctxt "front-end"
+msgid "Required fields are marked"
+msgstr ""
+
+#: 404.php:62 inc/wedocs/epicjungle-wedocs-template-functions.php:23 search.php:24
+#: searchform.php:5
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: comments.php:30 comments.php:92
+#. translators: 1: number of comments, 2: post title
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-epicjungle.php:101
+msgctxt "menu location"
+msgid "Social Media"
+msgstr ""
+
+#: inc/class-epicjungle.php:102
+msgctxt "menu location"
+msgid "Footer Menu"
+msgstr ""
+
+#: inc/class-epicjungle.php:103
+msgctxt "menu location"
+msgid "Footer Shop Menu"
+msgstr ""
+
+#: inc/class-epicjungle.php:104
+msgctxt "menu location"
+msgid "Topbar Left"
+msgstr ""
+
+#: inc/class-epicjungle.php:105
+msgctxt "menu location"
+msgid "Topbar Right"
+msgstr ""
+
+#: inc/class-epicjungle.php:106
+msgctxt "menu location"
+msgid "Contact Links"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:1207
+#: inc/classes/class-tgm-plugin-activation.php:3049
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2443
+#. translators: 1: install status, 2: update status
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2489
+#. translators: 1: number of plugins.
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-tgm-plugin-activation.php:2583
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2250
+msgctxt "button"
+msgid "Primary"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2251
+msgctxt "button"
+msgid "Success"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2252
+msgctxt "button"
+msgid "Danger"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2253
+msgctxt "button"
+msgid "Warning"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2254
+msgctxt "button"
+msgid "Info"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2255
+msgctxt "button"
+msgid "Dark"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2256
+msgctxt "button"
+msgid "Gradient"
+msgstr ""
+
+#: inc/customizer/class-epicjungle-customizer.php:2257
+msgctxt "button"
+msgid "Link"
+msgstr ""
+
+#: inc/template-functions/blog.php:139
+#. translators: 1: first post 2: last post 3: total posts
+msgctxt "with first and last post"
+msgid "Showing %1$d&ndash;%2$d of %3$d post"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/template-functions/global.php:24
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr ""
+
+#: inc/woocommerce/template-functions/product-archive.php:153
+#. translators: 1: first result 2: last result 3: total results
+msgctxt "with first and last result"
+msgid " of %3$d result"
+msgid_plural " of %3$d products"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/global/quantity-input.php:42
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: woocommerce/myaccount/orders.php:217
+#. translators: 1: first result 2: last result 3: total results
+msgctxt "with first and last order"
+msgid "Showing %1$d of %2$d order"
+msgid_plural "Showing %1$d of %2$d order"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/myaccount/orders.php:220
+#. translators: 1: first result 2: last result 3: total results
+msgctxt "with first and last order"
+msgid "Showing %1$d&ndash;%2$d of %3$d order"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d orders"
+msgstr[0] ""
+msgstr[1] ""
