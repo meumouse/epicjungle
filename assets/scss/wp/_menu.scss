@@ -1,0 +1,217 @@
+@media (max-width: 991.98px) {
+    .admin-bar .cs-offcanvas-collapse {
+        top: 32px;
+    }
+
+    .admin-bar .navbar-sticky.navbar-stuck .cs-offcanvas-collapse {
+        top: 0;
+    }
+
+}
+
+.admin-bar .navbar-sticky.navbar-stuck,
+.admin-bar .navbar-floating {
+	@include media-breakpoint-up(lg) {
+    	top: 32px;
+    }
+}
+
+.admin-bar .navbar-floating {
+    &:not(.navbar-stuck) {
+		@include media-breakpoint-down(md) {
+			top: 46px;
+		}
+	}
+
+	&.navbar-stuck {
+		top: 32px;
+
+		@media(min-width: 600px) and ( max-width: 782px ) {
+			top: 46px;
+			
+		}
+	}
+}
+
+.admin-bar .navbar-sticky.navbar-stuck {
+	
+	@media(min-width: 600px) and ( max-width: 782px ) {
+		top: 46px;
+		
+	}
+}
+
+.logo-link,
+.footer-logo-link,
+.navbar-stuck-logo {
+	img {
+		max-height: 3.44rem;
+    	width: auto;
+	}
+}
+
+.mobile-logo-link {
+	img {
+		max-height: 2.81rem;
+    	width: auto;
+	}
+}
+
+.topbar {
+	&__nav {
+		> ul {
+			> li + li {
+				margin-left: 1rem;
+			}
+		}
+	}
+}
+
+.navbar-search {
+	.navbar-search-field {
+		flex: 1 1 0%;
+	}
+}
+
+.admin-bar {
+	div#shoppingCart {
+		margin-top: 46px;
+
+		@include media-breakpoint-up(lg) {
+			margin-top: 32px;
+		}
+	}
+}
+
+.navbar-floating + .content-area,
+.navbar-floating + .post,
+.navbar-floating + div:not(.cs-sidebar-enabled):not(.elementor) {
+ 	@include media-breakpoint-up(lg) {
+ 		padding-top: 81px;
+ 	}
+}
+
+.navbar-floating + div[data-elementor-type="wp-page"] {
+	padding-top: 0;
+}
+
+.navbar-floating + div.cs-sidebar-enabled {
+	margin-top: 62px;
+ 	@include media-breakpoint-up(lg) {
+ 		margin-top: 81px;
+ 	}
+}
+
+.navbar-floating + .article__page {
+	@include media-breakpoint-up(lg) {
+ 		padding-top: 81px !important;
+ 	}
+}
+
+.epicjungle-slanted-bg-header + .content-area,
+.epicjungle-slanted-bg-header + .cs-sidebar-enabled {
+ 	display: block;
+    position: relative;
+    z-index: 5;
+    margin-top: -350px;
+
+ }
+
+.epicjungle-slanted-bg-header + .cs-sidebar-enabled {
+	&:before {
+		content: none;
+	}
+
+	.container .row {
+		@include media-breakpoint-up(lg) {
+			margin: 0;
+		}
+	}
+
+	@include media-breakpoint-down(md) {
+		.breadcrumb-item > a,
+		.breadcrumb-item + .breadcrumb-item::before,
+		.breadcrumb-item.active {
+			color: #fff;
+		}
+	}
+}
+
+.epicjungle-slanted-bg-header + .content-area {
+	.breadcrumb-item > a,
+	.breadcrumb-item + .breadcrumb-item::before {
+		color: #fff;
+	}
+}
+
+.header-navbar-dashboard.navbar-dark .nav-link-style,
+.navbar-solid.navbar-dark .nav-link-style {
+ 	color: rgba(255, 255, 255, 0.7) !important;
+}
+
+ .dropright .dropdown-toggle::after {
+ 	@media (max-width: 991px) {
+ 		transform: rotate(-270deg );
+ 	}
+ }
+
+ .cs-header.bg-primary {
+ 	.epicjungle-navbar-social-menu {
+ 		.social-btn {
+ 			color: #fff;
+ 		}
+ 	}
+
+ }
+
+.topbar__nav--right .dropdown .dropdown-menu {
+	left: auto !important;
+	right:0;
+}
+
+.topbar .menu-image-title-after.menu-image-not-hovered img {
+	padding-right: 0 !important;
+}
+
+.topbar .menu-image-title-after.menu-image-title {
+	padding-left: 0 !important;
+}
+
+.topbar .menu-image-title-after.menu-image-not-hovered img {
+	display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: .8125rem;
+	width: 20px;
+    max-width: 100%;
+    margin-right: 8px;
+
+}
+
+.topbar .dropdown-menu .menu-image-title-after.menu-image-not-hovered .menu-image-title-after.menu-image-title {
+	display: inline-block;
+  vertical-align: middle;
+  line-height: 1.25;
+}
+
+.topbar__nav > ul.topbar__nav--right > li:nth-child(2) {
+	margin-left: 1.7rem;
+}
+
+.navbar-dark .navbar-nav .dropdown-menu.dropdown-mega .dropdown-item.nav-link-style:not(:hover) {
+	color: #5a5b75 !important;
+}
+
+.navbar-dark .navbar-nav .dropdown-menu.dropdown-mega .dropdown-item.nav-link-style:hover,
+.navbar-dark .navbar-nav .dropdown-menu.dropdown-mega .dropdown-item.nav-link-style:focus {
+	color: $primary !important;
+}
+
+@media(min-width:360px) {
+	.modal-content .woocommerce-form-login .forget-password-row {
+		flex-direction: row;
+	}
+	.modal-content .woocommerce-form-login .woocommerce-LostPassword.mt-3 {
+		margin-top: 0 ! important;
+	}
+}

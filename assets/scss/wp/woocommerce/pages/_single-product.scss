@@ -1,0 +1,284 @@
+.single-product {
+
+	.product.col {
+		padding: 0;
+	}
+
+	.upsells .product.col,
+	.woocommerce-grouped-product-list .product.col {
+		padding: 0 15px;
+	}
+	
+	.summary .price  {
+		font-size: 1.375rem;
+		line-height: 1.35;
+		color: #4a4b65;
+		font-weight: 600;
+
+		del {
+			line-height: 1.5rem;
+		}
+
+		.badge {
+			position: relative;
+			top: -4px;
+		}
+	}
+
+	.woocommerce-grouped-product-list-item__price {
+		font-size: 1rem;
+		color: #4a4b65;
+		font-weight: 600;
+
+		del {
+			font-size: 0.875rem !important;
+			
+		}
+	}
+
+	.variations {
+		position: relative;
+	}
+
+	.variations .reset_variations {
+		position: absolute;
+	    top: 0;
+	    right: 0;
+	    font-size: .875rem;
+	    text-decoration: none;
+
+	    &:before {
+	    	display: inline-block;
+		    margin-right: .25rem;
+		    font-family: 'feather';
+		    font-size: .85em;
+		    content: '\ea21';
+			
+	    }
+	}
+
+	p.stock {
+		margin-top: 1.5rem;
+
+		&.in-stock {
+			@extend .text-success;
+		}
+
+		&.out-of-stock {
+			@extend .text-danger;
+		}
+	}
+
+
+	.single_variation_wrap .woocommerce-variation-add-to-cart,
+	form.cart:not(.variations_form ):not(.grouped_form ) {
+		display:flex;
+		width: 100%;
+		margin-top: 1.5rem;
+		margin-bottom: 1rem;
+	}
+
+	form.cart {
+		table.variations,
+		table.woocommerce-grouped-product-list {
+			margin-top: 1.5rem;
+		}
+
+	}
+
+	form.cart.grouped_form {
+	
+		p.stock {
+			margin: 0;
+		}
+
+		.nav-link-style > i {
+		    margin-top: -.125rem;
+		    vertical-align: middle;
+		}
+
+		.woocommerce-grouped-product-list {
+			.woocommerce-grouped-product-list-item + .woocommerce-grouped-product-list-item {
+				margin-top: 10px;
+			}
+		}
+
+	}
+
+	.cart.grouped_form tr, 
+	.cart.grouped_form td {
+		word-break: normal;
+		vertical-align: middle;
+	}
+
+	form.cart.grouped_form {
+		button {
+			display: block;
+	    	width: 100%;
+			margin-bottom: 1rem;
+		}
+	}
+
+	form.variations_form {
+		.woocommerce-variation-price {
+			.price {
+				font-size: 1.2rem;
+
+				del {
+					font-size: 0.875rem !important;
+					
+				}
+			}
+		}
+
+		.single_variation_wrap {
+			.woocommerce-variation.single_variation {
+				margin-top: 1.5rem;
+			}
+		}
+	}
+	
+	
+	.quantity {
+		width: 7.2rem;
+	}
+
+	.summary .yith-wcwl-add-to-wishlist {
+		@extend .btn;
+		@extend .btn-outline-secondary;
+		@extend .btn-block;
+		margin-bottom: 14px;
+
+		
+	}
+
+	.summary .yith-wcwl-add-to-wishlist,
+	.woocommerce-product-gallery .yith-wcwl-add-to-wishlist,
+	.epicjungle-wc-product-tabs + .yith-wcwl-add-to-wishlist {
+		a {
+			color: #5a5b75;
+
+			&:hover {
+				text-decoration: none;
+			}
+		}
+
+		i {
+			margin-right: .25rem;
+			font-size: 1.125rem;
+		}
+	}
+
+	.epicjungle-wc-product-tabs + .yith-wcwl-add-to-wishlist {
+		padding: 30px 0;
+    	border-top: 1px solid #e9e9f2;
+    	
+		.yith-wcwl-wishlistaddedbrowse,
+		.yith-wcwl-add-button,
+		.yith-wcwl-wishlistexistsbrowse {
+			@include make-container();
+
+		    @media(min-width: 1280px) {
+		    	max-width: 1260px;
+		    }
+		}
+	    
+	}
+
+	.woocommerce-product-gallery__wrapper {
+		.yith-wcwl-add-to-wishlist {
+			margin-top: 20px;
+			position: relative;
+			z-index: 1;
+		}
+	}
+
+	.woocommerce-product-details__short-description {
+		font-size: .875rem;
+
+		p {
+			margin-bottom: .5rem;
+		}
+	}
+
+	.product_meta {
+		a {
+			color: #737491;
+			text-decoration: none;
+		}
+	}
+
+	.comment-form {
+		margin: 0;
+	}
+
+	.comment-form label {
+		padding: 0 !important;
+	}
+
+	.comment-form > * {
+		padding: 0;
+	}
+
+	.comment-form > .custom-control {
+		padding-left: 1.6666666667rem;
+	}
+
+	.comment-form > *.comment-form-email, 
+	.comment-form > *.comment-form-author {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	#comments .product-review {
+		border-bottom: 1px solid #e3e9ef;
+	    padding-bottom: 30px;
+	    
+	    & + .product-review {
+	    	padding-top: 30px;
+
+	    }
+
+	    &:last-child {
+	    	border: 0;
+	    }
+
+	}
+
+	.sharedaddy .sd-social-icon-text .share-btn {
+	    line-height: 1.5;
+	}
+
+	.cs-carousel.related-product-carousel .tns-outer {
+		padding: 0 !important;
+		max-width: 100% !important;
+		flex: 0 0 auto;
+
+		.col {
+			padding: 0;
+
+			.card-product {
+				margin-left: .25rem !important;
+				margin-right: .25rem !important;
+
+				&.mb-grid-gutter {
+					margin-bottom: 0 !important;
+				}
+			}
+		}
+	}
+
+	.cs-carousel.related-product-carousel .tns-nav ~ .tns-ovh {
+		margin-bottom: 0;
+	}
+	
+}
+
+.sharedaddy .share-customize-link {
+	display: none;
+}
+
+.single-product .breadcrumb {
+	padding-bottom: .25rem;
+	margin-bottom: .5rem;
+}

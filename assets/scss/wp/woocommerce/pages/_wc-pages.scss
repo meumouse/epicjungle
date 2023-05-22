@@ -1,0 +1,108 @@
+.woocommerce-checkout,
+.woocommerce-cart {
+	.article__checkout,
+	.article__cart {
+		padding-top: 0 !important;
+		padding-bottom:0 !important;
+
+		@include media-breakpoint-up(lg) {
+			.cs-sidebar-enabled {
+			    width: 100vw;
+			    position: relative;
+			    margin-left: -50vw;
+			    left: 50%;
+			}
+		}
+
+		.container {
+			@include media-breakpoint-down(sm) {
+				padding: 0;
+			}
+		}
+	}
+}
+
+.shipping-calculator-form {
+	.select2-container {
+		.select2-selection.select2-selection--single {
+			height: calc(1.5em + 0.85rem + 2px);
+		    padding: 0.425rem 1rem;
+		    font-size: 0.875rem;
+		    line-height: 1.5;
+		    border-radius: 0.5rem;
+		}
+
+		.select2-selection--single .select2-selection__rendered {
+			line-height: 22px;
+		}
+	}
+
+	p[class*="col-"] {
+		flex: 0 0 100%;
+		max-width: 100%;
+		padding:0 ;
+	}
+}
+
+.widget_products .product_list_widget > li .widget-product-thumb, 
+.widget_recently_viewed_products .product_list_widget > li .widget-product-thumb, 
+.widget_recent_reviews .product_list_widget > li .widget-product-thumb,
+.widget_top_rated_products .product_list_widget > li .widget-product-thumb	{
+	display: block;
+    width: 4rem;
+    margin-right: 0.625rem;
+
+    img {
+    	border-radius: .75rem;
+    }
+}
+
+.sigin-container .woocommerce-form.woocommerce-form-register,
+.style-3 .ar-register.elementor-form.register .ar-form-fields-wrapper {
+	@include make-row();
+
+	> * {
+		@include make-col-ready();
+	}
+
+	.form-group {
+		@include media-breakpoint-up(lg) {
+        	@include make-col(6);
+        }
+	}
+
+	button {
+		margin-left: 15px;
+	}
+
+	.cs-password-toggle-btn {
+		right: 1rem;
+	}
+}
+
+.woocommerce-form-login {
+	.forget-password-row {
+		flex-direction: column;
+		align-items: start !important;
+
+		@include media-breakpoint-up(lg) {
+			flex-direction: row;
+			align-items: center !important;
+		}
+	}
+}
+
+@media(min-width: 576px) and (max-width: 1110px ) {
+	.footer-shop .shop-widgets .elementor-widget-ar-market-button .epicjungle-market-button {
+		flex-direction: column;
+	}
+}
+
+.footer-shop .epicjungle-copyright {
+	font-size: .8125rem !important;
+}
+
+
+.footer-shop .list-social li.ml-2{
+	margin-left: 0.25rem !important;
+}

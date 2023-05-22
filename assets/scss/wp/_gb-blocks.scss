@@ -1,0 +1,114 @@
+.post__content > .wp-block-cover:first-child {
+    margin-top: 0;
+}
+
+.wp-block-cover__inner-container,
+.wp-block-cover,
+.wp-block-button {
+    color: #fff;
+
+    &.is-style-outline {
+        color: #32373c;
+    }
+    
+    a {
+        color: inherit;
+    }
+}
+
+.wp-block-archives,
+.wp-block-cover,
+.wp-block-button,
+.wp-block-pullquote,
+.wp-block-columns,
+.wp-block-media-text,
+.wp-block-latest-comments,
+.wp-block-categories,
+.wp-block-latest-posts {
+    margin-top: 28px;
+    margin-bottom: 28px;
+
+    &.alignleft {
+        margin-right: 2em;
+    }
+}
+
+.wp-block-table {
+    width: 100%;
+    margin-bottom: 1rem;
+
+    &.has-fixed-layout {
+        table-layout: fixed;
+    }
+}
+
+pre.wp-block-verse {
+    padding: 1em;
+}
+
+.wp-block-latest-comments,
+ul.wp-block-archives, .wp-block-categories ul {
+    padding-left: 2.5em;
+    margin-left: 1.3em;
+
+    margin-top: 6px;
+}
+
+.wp-block-latest-posts.wp-block-latest-posts__list li {
+    margin-bottom: 1em;
+}
+
+.single-post:not(.has-sidebar) .wp-block-columns.alignfull, 
+.single-post:not(.has-sidebar) .alignfull:not(.has-background) .wp-block-columns,
+.page .wp-block-columns.alignfull,
+.page .alignfull:not(.has-background) .wp-block-columns {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.is-type-video.wp-block-embed {
+    &__wrapper {
+        @extend .embed-responsive;
+
+        iframe {
+            @extend .embed-responsive-item;
+        }
+    }
+
+    &.wp-embed-aspect-21-9 {
+        .wp-block-embed__wrapper {
+            @extend .embed-responsive-21by9;
+        }
+    }
+
+    &.wp-embed-aspect-16-9 {
+        .wp-block-embed__wrapper {
+            @extend .embed-responsive-16by9;
+        }
+    }
+
+    &.wp-embed-aspect-4-3 {
+        .wp-block-embed__wrapper {
+            @extend .embed-responsive-4by3;
+        }
+    }
+
+    &.wp-embed-aspect-1-1 {
+        .wp-block-embed__wrapper {
+            @extend .embed-responsive-1by1;
+        }
+    }
+}
+
+.wp-block-embed-facebook .fb_iframe_widget {
+    max-width: 100% !important;
+}
+
+.wp-block-gallery.alignleft,
+.wp-block-gallery.alignright{
+    max-width: calc( 5 * (100vw / 12) );
+
+    @include media-breakpoint-up(lg) {
+        max-width: 50%;
+    }
+}

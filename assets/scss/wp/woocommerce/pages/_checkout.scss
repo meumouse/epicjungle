@@ -1,0 +1,212 @@
+.woocommerce-checkout {
+	.article__checkout {
+		padding-top: 0 !important;
+		padding-bottom:0 !important;
+
+		@include media-breakpoint-up(lg) {
+			.cs-sidebar-enabled {
+			    width: 100vw;
+			    position: relative;
+			    margin-left: -50vw;
+			    left: 50%;
+			}
+		}
+	}
+
+	.create-account {
+		label {
+			padding-left: 1.125rem;
+		}
+	}
+
+	.page__header {
+		padding-top: 0 !important;
+		margin-top: 0 !important;
+
+		.page-title {
+			padding-bottom: 1.5rem;
+			margin-bottom: 1rem !important;
+		}
+	}
+
+	.woocommerce-checkout-review-order-table {
+		.widget_products {
+			.product_list_widget {
+				padding: 0;
+				
+				>li .widget-product-thumb {
+					display: block;
+		    		width: 3.75rem;
+
+		    		img {
+		    			border-radius: .75rem;
+		    		}
+		    	}
+		    }
+		}
+	}
+
+	.woocommerce-checkout-payment {
+		.card-header {
+			.custom-control-label {
+				padding-left: 0;
+
+				img {
+					width: 90px;
+					display: flex;
+					order: 2;
+					max-height: 1.3em;
+					margin-left: 1rem;
+				}
+			}
+		}
+
+		.card-body {
+			
+			.payment_method_stripe {
+				.woocommerce-SavedPaymentMethods > li {
+					display: flex;
+					align-items: center;
+				}
+
+				p {
+					font-size: .8125rem;
+					margin-bottom: 0;
+
+					input[type="checkbox"] {
+						display: inline-block;
+	    				vertical-align: middle;
+					}
+
+					label {
+						padding-left: 0;
+						display: inline-block;
+	    				vertical-align: middle;
+	    				margin-left: 0.24rem !important;
+					}
+				}
+			}
+		}
+	}
+
+	#payment .methods li.woocommerce-SavedPaymentMethods-token,
+	#payment .methods li.woocommerce-SavedPaymentMethods-new {
+		label {
+			padding-left: 0.2rem;
+			margin-bottom: 0;
+		}
+
+		input[type="radio"] {
+			margin-top: 2px;
+		}
+	}
+
+	.woocommerce-NoticeGroup,
+	.woocommerce-notices-wrapper:not(:empty) {
+		padding-left: 15px;
+    	padding-right: 2.5rem;
+    	flex: 0 0 66.6666666667%;
+    	max-width: 66.6666666667%;
+    	position: relative;
+    	z-index: 2;
+    	background: #fff;
+    	padding-top: 2rem;
+	}
+
+	.epicjungle-form-coupon .modal-content {
+		.woocommerce-error,
+		.woocommerce-message {
+			position: relative;
+		    flex: 1 1 auto;
+		    margin: 1.25rem;
+		}
+	}
+
+	#add_payment_method #payment ul.payment_methods li img.stripe-icon, 
+	#payment .wc_payment_method img.stripe-icon {
+		max-width: 40px;
+    	padding-left: 3px;
+    	margin: 0;
+	}
+
+	.woocommerce-form-login {
+		margin-bottom: 20px;
+		
+		.register-text {
+			display: none;
+		}
+	}
+
+}
+
+.woocommerce-page .form-row {
+	display: block;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.woocommerce-privacy-policy-text p {
+	padding-bottom: 0.5rem;
+    font-size: 0.875rem;
+}
+
+@media (min-width: 768px) {
+    .woocommerce-checkout-payment .wc-credit-card-form .row > .form-row-wide {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    
+    .woocommerce-checkout-payment .wc-credit-card-form .row > .form-row.form-row-first, .woocommerce-checkout-payment .wc-credit-card-form .row > .form-row.form-row-last{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+
+.wc_payment_method.payment_method_stripe,
+.woocommerce-PaymentMethod.payment_method_stripe {
+    .wc-credit-card-form {
+        .wc-stripe-elements-field.StripeElement--empty,
+        .wc-stripe-elements-field.StripeElement--invalid,
+        .wc-stripe-elements-field.StripeElement--focus {
+            float: left;
+            width: 100%;
+            margin: 0 1rem 0;
+        }
+        .row {
+            > label {
+                margin-left: 1rem;
+                margin-right: 1rem;
+            }
+
+            .clear {
+            	margin: 0 ! important;
+            	padding: 0;
+            }
+        }
+
+        label {
+        	padding-left: 0;
+        }
+    }
+}
+
+.woocommerce-checkout-payment .wc-credit-card-form label {
+	font-size: 14px !important;
+}
+
+@media( min-width: 992px ){
+	.cs-sidebar-enabled .cs-content {
+		z-index: inherit;
+	}
+}
+
+.woocommerce-checkout form .woocommerce-additional-fields__field-wrapper {
+	textarea#order_comments {
+    	height: 10em; // Set your height
+    }
+
+    label {
+    	padding-left: 1.125rem;
+    }
+}
+

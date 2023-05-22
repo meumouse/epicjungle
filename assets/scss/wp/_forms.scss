@@ -1,0 +1,318 @@
+label:not([class]) {
+    @extend .form-label;
+}
+
+input:not([type="checkbox"]):not([type="radio"]):not([class]),
+textarea:not([class]) {
+    @extend .form-control;
+}
+
+.comment-form {
+    @include make-row();
+
+    > * {
+        @include make-col-ready();
+        @include make-col(12);
+
+        &.comment-form-email,
+        &.comment-form-author {
+            @include media-breakpoint-up(md) {
+                @include make-col(6);
+            }
+        }
+    }
+
+    .comment-form-comment {
+        order: 2;
+    }
+
+    .comment-form-cookies-consent,
+    .form-submit {
+        order: 3;
+    }
+
+    label:not(.custom-control-label) {
+        padding-left: 1.125rem !important;
+    }
+
+    .custom-control.custom-checkbox {
+        padding-left: 36px;
+
+        label {
+            padding: 0;
+        }
+    }
+}
+
+input[type="radio"], input[type="checkbox"] {
+    & + label:not(.btn) {
+        padding-left: 0.5rem;
+    }
+}
+
+.button-addons {
+    .form-control {
+        @extend .rounded-right-0;
+    }
+
+    .btn {
+        @extend .rounded-left-0;
+    }
+
+}
+
+.icon-only {
+    .btn {
+        font-size: 0;
+
+        &:before {
+            font-size: 1.25rem !important;
+            font-family: 'feather';
+            margin-top: -.125rem;
+            vertical-align: middle;
+            content: "\e9d5";
+            line-height: 1.2;
+            margin-right: .25rem;
+        }
+
+    }
+        
+}
+
+.flex-grow {
+    .wpforms-field-container {
+        @include media-breakpoint-up(lg) {
+            flex: 1;
+        }
+    }
+}
+
+.wpforms-container .wpforms-field,
+.wpforms-container .wpforms-submit-container {
+    padding: 0 !important;
+}
+
+.wpforms-container {
+    margin-bottom: 0 !important;
+}
+
+.wpforms-form {
+    .wpforms-title {
+        font-size: 2rem !important;
+        padding-bottom: 1.5rem;
+        line-height: 1.25;
+        font-weight: 600;
+        color: #4a4b65;
+    }
+
+    &.d-flex.flex-grow {
+        flex-direction: column;
+        @include media-breakpoint-up(lg) {
+            flex-direction: row;
+        }
+
+    }
+}
+
+.wpforms-container .row .wpforms-field {
+    padding: 0 15px !important;
+}
+
+
+.cs-widget-light {
+    .wpforms-form {
+        .wpforms-title {
+            color: #fff;
+        }
+    }
+}
+
+.shop-sidebar {
+    .widget_product_search .search-field {
+        display: block;
+        width: 100%;
+        height: calc(1.5em + 1.25rem + 2px);
+        padding: 0.625rem 1rem;
+        padding-left: 2.5rem;
+        font-size: 0.9375rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #4b566b;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #dae1e7;
+        border-radius: 0.75rem;
+        box-shadow: 0 0 0 0 transparent;
+        transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+
+        &:focus {
+            color: #737491;
+            background-color: #fff;
+            border-color: rgba(118, 109, 244, 0.35);
+            outline: 0;
+            outline-color: initial;
+            outline-style: initial;
+            outline-width: 0px;
+            box-shadow: 0 0 0 0 transparent, 0 0.375rem 0.625rem -0.3125rem rgba(118, 109, 244, 0.15);
+        }
+    }
+
+    .widget_product_search .woocommerce-product-search::before {
+        display: block;
+        position: absolute;
+        width: 3rem;
+        height: 100%;
+        font-size: 1rem;
+        text-align: center;
+        line-height: calc(1.5em + 1.25rem + 2px);
+        font-family: 'feather' !important;
+        content: "\e9d4";
+    }
+
+    .widget_product_search button[type='submit'] {
+        display: none;
+    }
+}
+
+
+.hero-form .wpforms-form{
+    .wpforms-field-label {
+        padding-left: 1.125rem !important;
+        font-size: .875rem !important;
+    }
+}
+
+span.elementor-button-icon.btn__icon.btn__icon--right + span.elementor-button-text {
+    order: initial;
+}  
+
+.booking-form .wpforms-field-container {
+    flex: 1;
+    //margin-right: 16px;
+}
+
+.booking-form .wpforms-field-container label {
+    padding-left: 1.125rem;
+}
+
+.booking-form .wpforms-field-container .row {
+    margin: 0;
+    
+    .wpforms-field {
+        padding: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .wpforms-container.booking-form .wpforms-field:not(.wpforms-field-phone):not(.wpforms-field-select-style-modern) {
+        overflow-x: visible;
+    }
+}
+    
+.form-margin-0 {
+    .form-group {
+        margin-bottom: 0;
+    }
+}
+
+.form-icon  .wpforms-field-name {
+    &:before {
+        font-size: 1rem !important;
+        font-family: 'feather';
+        vertical-align: middle;
+        content: "\ea0d";
+        line-height: 1;
+        position: absolute;
+        top: 14px;
+        left: 33px;
+        color: #737491;
+    }
+    .form-control {
+        padding: 0.5625rem 2.595rem !important;
+    }
+}
+
+.form-icon {
+    
+    .wpforms-field-email {
+        &:before {
+            font-size: 1rem !important;
+            font-family: 'feather';
+            vertical-align: middle;
+            content: "\e996";
+            line-height: 1;
+            position: absolute;
+            top: 14px;
+            left: 33px;
+            color: #737491;
+        }
+        .form-control {
+            padding: 0.5625rem 2.595rem !important;
+        }
+    }
+}
+
+@media(max-width: 576px) {
+.booking-form .row,
+.booking-form .d-flex {
+    flex-direction: column;
+}
+}
+
+.notification-form .wpforms-field-container {
+    width: 80%;
+}
+
+.notification-form .wpforms-form {
+    margin-bottom: 0;
+}
+
+.wpforms-container .wpforms-field input.wpforms-error {
+    border: 1px solid #f74f78 !important;
+}
+
+.wpforms-container label.wpforms-error {
+    color: #FF0000 !important;
+}
+
+.notification-form .wpforms-form {
+    margin-bottom: 0;
+}
+
+.wpforms-form .wpforms-field-radio {
+    &.pb-3 {
+        padding-bottom: 1rem !important;
+    }
+
+    label.h6 {
+        font-weight: 600 !important;
+    }
+
+    ul.btn-group-toggle {
+        li.wpforms-selected {
+            .btn.btn-outline-primary {
+                border-color: transparent;
+                background-color: rgba($primary, $btn-translucent-bg-opacity);
+                color: $primary;
+            }
+            
+            .btn.btn-outline-light {
+                border-color: transparent !important;
+                background-color: rgba($light, $btn-translucent-bg-opacity) !important;
+                color: $light !important;
+            }
+        }
+
+        li {
+            margin-right: 13px
+        }
+    }
+
+    &.wpforms-list-inline {
+        ul.btn-group-toggle {
+            li {
+                margin-right: 13px;
+            }
+        }
+    }
+}

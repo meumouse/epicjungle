@@ -1,0 +1,33 @@
+.elementor-column>.elementor-element-populated:not(.card-body):not(.dropdown-body):not(.dropdown-img-left):not(.no-pad-0) {
+    padding: 0 !important;
+}
+
+.elementor-section .elementor-container.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.elementor-column {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.no-gutters > .elementor-column {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.elementor-column-gap-narrow > .elementor-column {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media(min-width: 1280px){
+	.elementor-section.elementor-section-boxed > .elementor-container {
+		max-width: 1260px !important;
+	}
+}
+
+.elementor-button-text {
+    order: initial;
+}

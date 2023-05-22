@@ -1,0 +1,20 @@
+.select2.select2-container {
+    .select2-selection--single,
+    .select2-selection--multiple {
+        @extend .custom-select;
+    }
+
+    .select2-selection__arrow {
+        display: none !important;
+    }
+}
+
+.select2-container .select2-selection--single .select2-selection__rendered {
+    padding-left: 0 !important;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    color: #737491 !important;
+}
+
+  

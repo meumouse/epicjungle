@@ -1,0 +1,101 @@
+img, figure {
+    @include img-fluid;
+}
+
+.wp-caption-text,
+.gallery-caption {
+    text-align: center;
+    font-size: $figure-caption-font-size;
+    color: $figure-caption-color;
+    margin-top: 1rem;
+}
+
+figure img {
+    line-height: 1;
+}
+
+.overflow-visible {
+    overflow: visible;
+}
+
+.alignleft {
+    /*rtl:ignore*/
+    float: left;
+    /*rtl:ignore*/
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.alignright {
+    /*rtl:ignore*/
+    float: right;
+    /*rtl:ignore*/
+    margin-left: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.single-post:not(.has-sidebar) .alignwide,
+.page .alignwide {
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include media-breakpoint-up(lg) {
+        margin-left: calc( -23.533% / 2 );
+        margin-right: calc( -23.533% / 2 );
+        max-width: calc( 100% + 23.533% ) !important;
+        width: calc( 100% + 23.533% ) !important;
+    }
+
+    @include media-breakpoint-up(xl) {
+        margin-left: calc( -26.533% / 2 );
+        margin-right: calc( -26.533% / 2 );
+        max-width: calc( 100% + 26.533% ) !important;
+        width: calc( 100% + 26.533% ) !important;
+    }
+}
+
+.single-post:not(.has-sidebar) .alignfull,
+.page .alignfull {
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw + 7.5px);
+    width: auto;
+    max-width: 1000%;
+    clear: both;
+
+    @include media-breakpoint-up(xl) {
+        margin-left: calc(50% - 50vw + 7.5px);
+    }
+}
+
+embed, iframe, object {
+    max-width: 100%;
+}
+
+hr.wp-block-separator + h2 {
+    clear: both;
+}
+
+.w-60px {
+    width: 60px;
+}
+
+.w-176px {
+    width: 176px;
+}
+
+.w-45px {
+    width: 45px;
+}
+
+.w-136 {
+    width: 136px;
+}

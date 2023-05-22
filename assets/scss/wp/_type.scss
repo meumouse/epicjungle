@@ -1,0 +1,13 @@
+.screen-reader-text {
+    @extend .sr-only;
+}
+
+blockquote:not([class]) {
+    padding: 1.2rem;
+    border-left: 3px solid #e9e9f2;
+    background-color: #f7f7fc;
+
+    > *:last-child {
+        margin-bottom: 0;
+    }
+}

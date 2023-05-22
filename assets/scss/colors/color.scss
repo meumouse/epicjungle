@@ -1,0 +1,232 @@
+.text-primary,
+.btn-group-toggle .btn-outline-primary.active,
+.btn-group-toggle .btn-outline-primary:hover,
+.btn-group-toggle .btn-outline-primary:focus,
+.ej-elementor-price-table__integer-part,
+.ej-list-item i,
+.card-active .accordion-heading a,
+.accordion-heading a:hover,
+.elementor-icon-list-icon i,
+.elementor-pagination .page-numbers.current,
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link:hover,
+.cs-video-btn:hover,
+.page-item.active .page-link,
+.page-link:hover,
+.woocommerce-MyAccount-navigation-link.is-active,
+.epicdrop-wishlist .card .card-footer .button.add_to_cart,
+.epicdrop-wishlist .card .card-footer .button.add_to_cart:hover {
+    color: var(--ed-primary) !important;
+}
+
+.wpforms-form .wpforms-field-radio ul.btn-group-toggle li.wpforms-selected .btn.btn-outline-primary,
+.wpforms-form .wpforms-field-radio ul.btn-group-toggle li.wpforms-selected .yith-wcwl-form.wishlist-fragment .hidden-title-form input.btn-outline-primary[type="submit"],
+.yith-wcwl-form.wishlist-fragment .hidden-title-form .wpforms-form .wpforms-field-radio ul.btn-group-toggle li.wpforms-selected input.btn-outline-primary[type="submit"],
+.wpforms-form .wpforms-field-radio ul.btn-group-toggle li.wpforms-selected .wishlist_table .btn-outline-primary.button.add_to_cart,
+.wishlist_table .wpforms-form .wpforms-field-radio ul.btn-group-toggle li.wpforms-selected .btn-outline-primary.button.add_to_cart,
+.wpforms-form .wpforms-field-radio ul.btn-group-toggle li.wpforms-selected .wishlist_table .btn-outline-primary.button.remove_from_wishlist,
+.wishlist_table .wpforms-form .wpforms-field-radio ul.btn-group-toggle li.wpforms-selected .btn-outline-primary.button.remove_from_wishlist,
+.wpforms-form .wpforms-field-radio ul.btn-group-toggle li.wpforms-selected .single-product .summary .btn-outline-primary.yith-wcwl-add-to-wishlist,
+.single-product .summary .wpforms-form .wpforms-field-radio ul.btn-group-toggle li.wpforms-selected .btn-outline-primary.yith-wcwl-add-to-wishlist,
+.wpforms-form .wpforms-field-radio ul.btn-group-toggle li.wpforms-selected .cs-range-slider .btn-outline-primary.button,
+.cs-range-slider .wpforms-form .wpforms-field-radio ul.btn-group-toggle li.wpforms-selected .btn-outline-primary.button {
+    background-color: var(--ed-primary-outline-bg);
+    color: var(--ed-primary);
+}
+
+.elementor-pagination .page-numbers.current,
+.card.card-hover:hover,
+.card.card-active,
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link,
+.page-item.active .page-link,
+.form-control:focus{
+    border-color: var(--ed-primary-outline-35) !important;
+}
+
+.cs-media-tabs .nav-link:hover,
+.cs-media-tabs .nav-link.active,
+.cs-media-tabs .nav-link:hover,
+.cs-media-tabs .nav-link.active,
+.card-hover.border-0::before,
+.card-active.border-0::before,
+.custom-select:focus,
+select:focus {
+    border-color: var(--ed-primary-outline-35);
+}
+
+.cs-sidebar .woocommerce-widget-layered-nav .woocommerce-widget-layered-nav-list__item--chosen .checkbox-indicator,
+.cs-range-slider-ui .noUi-connect,
+.yith-wcwl-form.wishlist-fragment .hidden-title-form input[type="submit"],
+.wishlist_table .button.add_to_cart,
+.cs-range-slider .button {
+    background-color: var(--ed-primary);
+}
+
+.btn-primary {
+    background-color: var(--ed-primary);
+    border-color: var(--ed-primary);
+
+    &:hover,
+    &:focus,
+    &.active,
+    &:not(:disabled):not(.disabled):active {
+        background-color: var(--ed-primary-bg-d);
+        border-color: var(--ed-primary-border-d);
+    }
+}
+
+.btn-outline-primary {
+    color: var(--ed-primary);
+    border-color: var(--ed-primary);
+
+    &:hover,
+    &:not(:disabled):not(.disabled):active {
+        background-color: var(--ed-primary);
+        border-color: var(--ed-primary);
+    }
+}
+
+.btn-translucent-primary {
+    background-color: var(--ed-primary-outline-bg);
+    color: var(--ed-primary);
+}
+
+.btn-translucent-primary:hover,
+.custom-control-input:checked ~ .custom-control-label::before {
+    background-color: var(--ed-primary);
+}
+
+.cs-video-btn-primary {
+    background-color: var(--ed-primary);
+
+    &:hover,
+    &:focus,
+    &.active {
+        background-color: var(--ed-primary-bg-d);
+    }
+}
+
+.cs-callout,
+[data-nav]::after,
+.custom-control-input:checked ~ .custom-control-label::before,
+.yith-wcwl-form.wishlist-fragment .hidden-title-form input[type="submit"],
+.wishlist_table .button.add_to_cart,
+.cs-range-slider .button {
+    border-color: var(--ed-primary);
+}
+
+.cs-page-spinner {
+    border-top-color: var(--ed-primary);
+    border-left-color: var(--ed-primary);
+    border-bottom-color: var(--ed-primary);
+}
+
+[data-nav]::before,
+.navbar-tool .navbar-tool-badge,
+.progress-bar,
+.cs-fancy-link::after {
+    background-color: var(--ed-primary);
+}
+
+.bg-primary {
+    background-color: var(--ed-primary) !important;
+}
+
+a,
+.btn-addtocart {
+    color: var(--ed-primary);
+
+    &:hover {
+        color: var(--ed-primary-bg-d);
+    }
+}
+
+.nav-link-style,
+.cs-widget-link,
+.cs-widget li > a,
+.cs-widget .tag-cloud-link {
+    &:hover {
+        color: var(--ed-primary);
+    }
+}
+
+.blockquote::before {
+    color: var(--ed-primary);
+    opacity: .5;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    &:hover,
+    &:focus {
+        color: var(--ed-primary);
+    }
+}
+
+.dropdown-item {
+    &:hover,
+    &:focus {
+        color: var(--ed-primary) !important;
+    }
+}
+
+.dropdown-menu li:hover > .dropdown-item,
+.card-floating-icon,
+.cs-fancy-link,
+.cs-fancy-link:hover,
+.btn-link,
+.nav-heading:hover,
+.nav-heading:hover .nav-heading-title,
+.nav-heading a:hover,
+.nav-heading a:hover .nav-heading-title,
+.nav-heading .nav-heading-title:hover,
+.nav-heading .nav-heading-title:hover .nav-heading-title,
+.btn-addtocart {
+    color: var(--ed-primary);
+}
+
+.btn-link:hover{
+    color: var(--ed-primary-border-d);
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-item:hover > .nav-link:not(.disabled) {
+        color: var(--ed-primary);
+    }
+}
+
+.bg-gradient,
+.btn-gradient {
+    background: var(--ed-primary-bg-gradient) !important;
+}
+
+.cs-video-btn:hover {
+    box-shadow: 0 0.375rem 1.125rem -0.5rem var(--ed-primary-outline-70);
+}
+
+.form-control:focus,
+.custom-select:focus,
+select:focus {
+    box-shadow: 0 0 0 0 transparent, 0 0.375rem 0.625rem -0.3125rem var(--ed-primary-outline-15);
+}
+
+.bg-faded-primary {
+    background-color: var(--ed-primary-outline-bg) !important;
+}
+
+.yith-wcwl-form.wishlist-fragment .hidden-title-form input:hover[type="submit"],
+.wishlist_table .button.add_to_cart:hover,
+.cs-range-slider .button:hover,
+.yith-wcwl-form.wishlist-fragment .hidden-title-form input:not(:disabled):not(.disabled):active[type="submit"],
+.wishlist_table .button.add_to_cart:not(:disabled):not(.disabled):active,
+.cs-range-slider .button:not(:disabled):not(.disabled):active,
+.yith-wcwl-form.wishlist-fragment .hidden-title-form input:not(:disabled):not(.disabled).active[type="submit"],
+.wishlist_table .button.add_to_cart:not(:disabled):not(.disabled).active,
+.cs-range-slider .button:not(:disabled):not(.disabled).active,
+.yith-wcwl-form.wishlist-fragment .hidden-title-form .show > input.dropdown-toggle[type="submit"],
+.wishlist_table .show > .dropdown-toggle.button.add_to_cart,
+.cs-range-slider .show > .dropdown-toggle.button {
+    background-color: var(--ed-primary-bg-d);
+    border-color: var(--ed-primary-border-d);
+}

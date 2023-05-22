@@ -1,0 +1,19 @@
+// Components
+@import "woocommerce/components/payment-method";
+@import "woocommerce/components/alert";
+@import "woocommerce/components/select2";
+@import "woocommerce/components/products";
+// Pages
+@import 'woocommerce/pages/account-order';
+@import 'woocommerce/pages/wishlist';
+@import 'woocommerce/pages/single-product';
+@import 'woocommerce/pages/wc-pages';
+@import 'woocommerce/pages/checkout';
+@import 'woocommerce/pages/cart';
+
+// Integrations
+@import 'woocommerce/integrations/color-swatches';
+
+@import 'woocommerce/star-rating';
+@import 'woocommerce/single-product-slider';
+@import 'woocommerce/widgets';

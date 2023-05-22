@@ -1,0 +1,25 @@
+.ej-pagination-logo:not(.active), .ej-brands img {
+    opacity: 0.4 !important;
+    filter: grayscale(100%) !important;
+
+    &:hover  {
+        opacity: 1 !important;
+        filter: grayscale(0) !important;
+
+    }
+}
+
+.ej-pagination-logo {
+    &:hover img {
+        opacity: 1 !important;
+        filter: grayscale(0) !important;
+    }
+}
+
+.ej-pagination-logo:not(.active) img, 
+.ej-brands img {
+    transition: opacity .3s ease-in-out;
+    display: inline-block;
+    
+}
+

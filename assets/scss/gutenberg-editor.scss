@@ -1,0 +1,58 @@
+@import 'theme';
+
+// // Post title
+// .editor-post-title__block {
+//     margin: 0 auto;
+//     //@extend .pt-8;
+//     //@extend .pt-md-11;
+// }
+
+.editor-post-title__block .editor-post-title__input {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    color: #4a4b65;
+    font-weight: 600;
+    border-bottom: 1px solid #e9e9f2;
+    margin-bottom: 3rem;
+    padding-bottom: 2.3rem !important;
+    margin-top: 10px;
+
+}
+
+.has-large-font-size {
+    font-size: 2em !important;
+}
+.wp-block {
+    max-width: 850px;
+}
+
+// .wp-block[data-align='wide'] {
+//     max-width: 826.66px;
+// }
+
+// .wp-block:not([class*="col-"]){
+//     width: calc(100vw - (2 * 1rem));
+//     max-width: 100%;
+// }
+
+.wp-block[data-align='full'] {
+    max-width: none;
+}
+
+.wp-block-latest-comments__comment {
+    margin-bottom: 1em !important;
+}
+
+.wp-block-latest-posts.wp-block-latest-posts__list li {
+    margin-bottom: 1em;
+}
+
+.wp-block-latest-posts.is-grid {
+    margin-left: 0 !important;
+}
+
+// blockquote:not([class]) {
+//     border-left: 0;
+//     padding-left: 0;
+//     line-height: 1.8;
+// }

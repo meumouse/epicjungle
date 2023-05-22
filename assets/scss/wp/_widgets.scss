@@ -1,0 +1,235 @@
+.cs-widget {
+    li > a, .tag-cloud-link {
+        @extend .cs-widget-link;
+        display: inline-block;
+    }
+
+    .cs-widget-title a {
+        color: inherit;
+    }
+
+    &.widget_rss {
+        .rss-widget-icon {
+            display: none;
+        }
+
+        ul > li {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1rem;
+
+            > * + * {
+                margin-top: 0.375rem;
+            }
+        }
+
+        .rss-date, cite {
+            font-size: 0.9375rem;
+            font-style: normal
+        }
+    }
+}
+
+.wp-calendar-table {
+    font-size: 0.875rem;
+    width: 100%;
+    @extend .table;
+    @extend .table-bordered;
+
+    caption {
+        text-align: center;
+    }
+
+    th,td {
+        padding: 5px;
+        text-align: center;
+    }
+
+    thead th {
+        vertical-align: bottom;
+        border-bottom: 2px solid #dfdfeb;
+    }
+}
+
+.wp-calendar-nav {
+    margin-top: -1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cs-widget-light {
+    .wp-calendar-table {
+        text-align: center;
+        border: 0;
+
+        thead {
+            th,
+            td {
+                border-bottom-width: 2 * $table-border-width;
+            }
+        }
+
+        th, td {
+            padding: $table-cell-padding-sm;
+            border: $table-border-width solid $table-dark-border-color
+        }
+
+        td {
+            color: $body-color;
+
+            a {
+                color: $white;
+            }
+        }
+    }
+
+    &.cs-widget li a, .tag-cloud-link, .wp-calendar-nav a {
+        color: $widget-link-light-color;
+        font-weight: normal;
+        text-decoration: none;
+
+        &:hover {
+            color: $widget-link-light-hover-color;
+        }
+
+        &.active,
+        .active > & {
+            color: $widget-link-light-active-color;
+        }
+    }
+
+    .children li, .sub-menu li {
+        border-color: $table-dark-border-color;
+    }
+
+    .children li > a:after,
+    .sub-menu li > a:after {
+        background-color: $table-dark-border-color;
+    }
+}
+
+.blog-sidebar, .elementor-widget-sidebar:not(.no-sidebar-style) {
+    .cs-widget.widget_categories,
+    .cs-widget.widget_archive,
+    .list-custom-taxonomy-widget {
+       
+        > ul   {
+            >li:not(a) {
+                font-size: 75%;
+                font-weight: normal;
+                color: #9e9fb4;
+            }
+
+            >li {
+
+                > a {
+                    font-size: 1rem;
+                    font-weight: 500;
+                    position: relative;
+                    padding: 0.25rem 0;
+                    transition: color 0.25s ease-in-out;
+                    color: #5a5b75;
+                    font-weight: 500;
+                    text-decoration: none;
+                    padding-left: 1.25rem;
+                    padding-right: .25rem;
+                    margin-right: .5rem;
+
+                    &:before {
+                        position: absolute;
+                        top: .0625rem;
+                        left: -.1875rem;
+                        transition: opacity .15s ease-in-out, -webkit-transform .25s ease-in-out;
+                        transition: transform .25s ease-in-out, opacity .15s ease-in-out;
+                        transition: transform .25s ease-in-out, opacity .15s ease-in-out, -webkit-transform .25s ease-in-out;
+                        font-family: 'feather';
+                        font-size: 1.25em;
+                        content: '\e931';
+                        opacity: .5;
+                    }
+                }
+            }
+        }
+
+        ul.children li {
+            
+            a {
+                font-size: 14px;
+                padding-right: .25rem;
+                margin-right: .5rem;
+
+            }
+        }
+    }
+}
+
+.tagcloud > a, 
+.tagcloud > .tag-cloud-link,
+.post-tags a {
+
+    display: inline-block;
+    padding: .375rem .75rem;
+    transition: border-color 0.25s ease-in-out,color 0.25s ease-in-out;
+    border: 1px solid #e9e9f2;
+    border-radius: .5rem;
+    background-color: #fff;
+    font-size: .8125rem !important;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-right: .2rem;
+    margin-bottom: .5rem;
+
+    &:not(:hover) {
+        color: #737491 !important;
+    }
+
+    &:hover {
+        border-color: #cfcfe3;
+        color: #4a4b65 !important;
+        text-decoration: none;
+    }
+}
+
+.post-tags a {
+    margin: .5rem .2rem .5rem 0;
+}
+
+.shop-sidebar,
+.elementor-widget-sidebar:not(.no-sidebar-style) {
+    .widget_shopping_cart {
+        .simplebar-content {
+            padding-left: 0 !important;
+            padding-top: 0 !important;
+        }
+
+        .cs-offcanvas-cap {
+            padding-top: 1.25rem;
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+    }
+
+    .product_list_widget > li {
+        margin-bottom: 1rem !important;
+        display: flex !important;
+
+        .widget-product-title {
+            margin-bottom: 0.125rem;
+
+            > a {
+                color: #5a5b75 !important;
+                font-weight: 500;
+
+                &:hover {
+                    color: #766df4 !important;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .star-rating {
+        display: block !important;
+        margin-bottom: .125rem !important;
+    }
+}

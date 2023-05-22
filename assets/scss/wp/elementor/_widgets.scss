@@ -1,0 +1,19 @@
+.elementor-text-editor > *:last-child {
+    margin-bottom: 0;
+}
+
+.mb-125 {
+    margin-bottom: 1.25rem !important;
+}
+
+.ejbrands-without-column:last-child {
+	margin-right: 0 !important;
+	padding-right: 0 !important;
+}
+
+.epicjungle__justify-content-center div[data-elementor-type=wp-page] {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
