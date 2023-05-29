@@ -134,9 +134,9 @@ if ( ! class_exists( 'EpicJungle_Plugin_Install' ) ) :
                         'required' => true,
                     ),
                     array(
-                        'name'     => 'EpicJungle Elementor',
+                        'name'     => 'EpicJungle Elementor Widgets',
                         'slug'     => 'epicjungle-elementor',
-                        'source'   => 'https://github.com/meumouse/epicjungle-elementor/raw/main/epicjungle-elementor.zip',
+                        'source'   => 'https://github.com/meumouse/epicjungle-elementor/raw/main/dist/epicjungle-elementor.zip',
                         'required' => true
                     ),
                     array(
