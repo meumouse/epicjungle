@@ -445,7 +445,7 @@ function epicjungle_wc_add_buy_now_button_single() {
     global $product;
 
     if( is_product() && 'yes' == get_option('ej_display_buy_now','yes') ){ ?>
-        <button type="submit" name="add-to-cart" value="<?php echo esc_attr($product->get_id()); ?>" id="epicjungle_buy_now" class="btn btn-primary mt-0 ej_buy_now_button button alt">
+        <button type="submit" name="add-to-cart" value="<?php echo esc_attr($product->get_id()); ?>" id="epicjungle_buy_now" class="btn btn-primary m-0 ej_buy_now_button button alt w-100">
             <i id="icon-buy-now-button" class="fe-shopping-cart mr-2"></i>
             <span id="span-buy-now-button" class="text-buy-now"><?php echo __( 'Comprar agora', 'epicjungle' ); ?></span>
             <span id="preloader-buy-now-button" class="spinner-border spinner-border-md d-none"></span>
@@ -484,8 +484,13 @@ function display_css_buy_now() {
     if( is_product() && 'yes' == get_option('ej_display_buy_now','yes') ) {
         ?>
         <style type="text/css">
-            .single-product .quantity, .single-product .single_add_to_cart_button {
-                margin-top: 5em;
+            #epicjungle_buy_now {
+                order: 1;
+            }
+            
+            .product-quantity-group {
+                margin-top: 1.85rem;
+                order: 2;
             }
         </style> <?php
     }
