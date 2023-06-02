@@ -8,7 +8,7 @@ Description:       Um tema WordPress verdadeiramente multiuso projetado para fac
 Requires at least: WordPress 5.7
 Tested up to:      6.1.1
 Requires PHP:      7.3
-Version:           1.7.5
+Version:           1.8.2
 License:           GNU General Public License v3 or later
 License URI:       LICENSE
 Text Domain:       epicjungle
@@ -3189,21 +3189,8 @@ h3.wc-bacs-bank-details-account-name {
 }
 
 #epicjungle_buy_now {
-  position: absolute;
   padding: 0.85rem 0;
   max-height: 53.19px;
-}
-
-@media (min-width: 992px) {
-  #epicjungle_buy_now {
-    width: calc(100% - 4em);
-  }
-}
-
-@media (max-width: 992px) {
-  #epicjungle_buy_now {
-    width: calc(100% - 2.3em);
-  }
 }
 
 #epicjungle-add-to-cart {
@@ -24366,10 +24353,14 @@ p.epicjungle-copyright {
 
 .single-product .single_variation_wrap .woocommerce-variation-add-to-cart,
 .single-product form.cart:not(.variations_form):not(.grouped_form) {
-  display: flex;
+  display: grid;
   width: 100%;
   margin-top: 1.5rem;
   margin-bottom: 1rem;
+}
+
+:is(.elementor-widget-woocommerce-product-add-to-cart,.woocommerce div.product .elementor-widget-woocommerce-product-add-to-cart,.elementor-widget-wc-add-to-cart,.woocommerce div.product .elementor-widget-wc-add-to-cart) form.cart:not(.grouped_form):not(.variations_form) {
+  display: grid !important;
 }
 
 .single-product form.cart table.variations,
