@@ -35,6 +35,9 @@ if ( $product->is_in_stock() ) : ?>
 		<?php
 		do_action( 'woocommerce_before_add_to_cart_quantity' );
 
+		?>
+		<div class="product-quantity-group d-flex w-100">
+		<?php
 		woocommerce_quantity_input(
 			array(
 				'min_value'   => apply_filters( 'woocommerce_quantity_input_min', $product->get_min_purchase_quantity(), $product ),
@@ -50,6 +53,7 @@ if ( $product->is_in_stock() ) : ?>
 			<span id="span-add-to-cart"><?php echo esc_html( 'Adicionar ao carrinho', 'epicjungle' ); ?></span>
 			<span id="preloader-add-to-cart" class="spinner-border spinner-border-md d-none"></span>
 		</button>
+		</div>
 
 		<?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
 		
