@@ -102,11 +102,11 @@ require get_template_directory() . '/inc/epicjungle-custom-color-functions.php';
 
 
 /**
- * Merlin WP
+ * EpicJungle Wizard
  */
-require get_template_directory() . '/inc/merlin/vendor/autoload.php';
-require get_template_directory() . '/inc/merlin/class-merlin.php';
-require get_template_directory() . '/inc/merlin/merlin-config.php';
+require get_template_directory() . '/inc/wizard/vendor/autoload.php';
+require get_template_directory() . '/inc/wizard/class-epicjungle-wizard.php';
+require get_template_directory() . '/inc/wizard/epicjungle-wizard-config.php';
 
 /**
  * EpicJungle Engine License
